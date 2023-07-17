@@ -1,0 +1,33 @@
+/* font-family: "Montserrat", sans-serif;
+font-family: "Playfair Display", serif;
+font-family: "Roboto", sans-serif; */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.testBorder {
+  border: 2px solid rgba(255, 0, 0, 0.169);
+}
+
+.mainWrapper {
+  background-color: #ffffff;
+  position: relative;
+}
+
+li {
+  list-style: none;
+}
+
+li a{
+  text-decoration: none;
+}
+
