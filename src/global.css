@@ -27,7 +27,20 @@ li {
   list-style: none;
 }
 
-li a{
+li a {
   text-decoration: none;
+}
+
+.react-datepicker__input-container .date_input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin: 0;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 800;
+  text-align: center;
+  width: 90%;
+  margin-left: 5%;
 }
 

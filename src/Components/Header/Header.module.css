@@ -14,7 +14,7 @@ nav {
   border-radius: 10px;
   width: 88%;
   z-index: 1;
-  backdrop-filter: blur(3.5px);
+  backdrop-filter: blur(4.5px);
 }
 
 nav::after {
@@ -38,6 +38,7 @@ nav::after {
   margin: 0% auto 0;
   top: 0%;
   left: 6%;
+  z-index: 1;
   animation: slideDown 1s ease;
 }
 
@@ -125,21 +126,103 @@ nav .contactBtn {
 /* hero container */
 .hero_section {
   width: 88%;
-  height: 32.7rem;
+  height: 20.7rem;
   margin: 5.5% auto 0;
   position: relative;
 }
 
-.hero-content {
+.hero_content {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 92%;
+  /* height: 40%; */
+  margin: 0 auto;
 }
 
-.hero-content .abroad_search {
-  height: 7.62rem;
+.hero_content .abroad_search {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.93rem;
+}
+
+.hero_content .location_search {
+  height: 4.8rem;
   width: 28.87rem;
+  background-color: #fff;
+  box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 4.68rem;
+  padding: 0 0.8rem;
+  padding-left: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.location_search div p {
+  text-align: start;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  color: #35313e;
+}
 
+.location_search button {
+  border: none;
+  background: transparent;
+}
+
+.location_search .location_part {
+  /* flex-grow: 2; */
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  justify-content: center;
+  position: relative;
+}
+
+.location_search .location_part::after {
+  content: "";
+  position: absolute;
+  right: -25%;
+  width: 1.5px;
+  height: 28px;
+  background-color: rgba(196, 176, 137, 0.733);
+}
+
+.location_search .university_part {
+  /* flex-grow: 2; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  align-items: center;
+  gap: 0.4rem;
+  margin-left: 2rem;
+}
+
+.location_search .location_select {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  /* padding: 0 1rem 0 0; */
+  margin: 0;
+  width: 100%;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 1rem;
+  font-style: normal;
+  text-align: center;
+  outline: none;
+  margin-left: 0.6rem;
+}
+
+.location_search .search_part {
+  /* flex-grow: 1; */
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
 
 .abroad_title {
   color: #fe962e;
@@ -155,7 +238,76 @@ nav .contactBtn {
   width: 21px;
 }
 
-.blur_circle1 {
+.hero_content .circle_text p {
+  color: #1a093f;
+  font-family: Montserrat;
+  font-size: 39.21px;
+  font-weight: 800;
+  line-height: 54.085px;
+}
+
+/* course-panel */
+.course_panel {
+  margin-top: 1rem;
+  width: 57.5rem;
+  height: 6.8rem;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 13.37rem;
+}
+
+.course_panel .enroll_btn {
+  height: 100%;
+  background: #1a093f;
+  border-radius: 0 20px 20px 0;
+  float: right;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: Montserrat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  cursor: pointer;
+}
+
+.course_panel .select_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.select_item p {
+  color: #1a093f;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  margin-right: 0.8rem;
+}
+
+.select_item select {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 1rem;
+  font-style: normal;
+  outline: none;
+  margin-left: 0.6rem;
+}
+
+
+
+/* .blur_circle1 {
   border-radius: 390.099px;
   background: #dbe6ed;
   filter: blur(89.14471435546875px);
@@ -165,7 +317,7 @@ nav .contactBtn {
   position: absolute;
   width: 390.099px;
   height: 390.099px;
-}
+} */
 /* .blur_circle2 {
   border-radius: 390.099px;
   background: #dbe6ed;
