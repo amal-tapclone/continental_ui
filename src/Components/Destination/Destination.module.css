@@ -1,0 +1,12 @@
+ .dest_slider_controls {
+  position: absolute;
+  width: 9%;
+  top: -10%;
+  right: 2%;
+}
+
+.dest_slider_controls .swiper-button-prev,
+.swiper-button-next {
+  width: 2.8rem;
+  height: 2.8rem;
+}

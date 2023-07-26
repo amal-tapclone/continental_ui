@@ -1,18 +1,113 @@
 .destination-sec {
   height: 39rem;
+  width: 100%;
   background: url(../../assets/HomePage/destination_bg.jpg) center/cover
     no-repeat;
   position: relative;
+  z-index: 1;
+}
+
+.destination-sec .desti-content,
+.slider-content {
+  margin-left: 9%;
+}
+
+.desti-content .title {
+  color: #fb8f2a;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.desti-content .heading {
+  color: #1a093f;
+  font-family: Montserrat;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 4.3rem;
+  text-transform: capitalize;
+}
+
+.destination-sec .slider-content {
+  height: 29rem;
+  width: 91%;
+  margin-top: 3.14rem;
+  position: relative;
+}
+
+.slider-content .country-pic {
+  width: 21.3rem;
+  height: 29rem;
+  position: relative;
+}
+.country-pic .country-name {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(7.5px);
+  bottom: -0.6%;
+  border-radius: 15px;
+  height: 4rem;
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.1rem 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 88%;
+}
+.slider-content .dest-slider-controls,
+.migrate-btn {
+  position: absolute;
+  width: 9%;
+  top: -13.5%;
+  right: 2%;
+}
+
+.migrate-btn {
+  right: 8%;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  border-radius: 24px;
+  border: none;
+  background: #fb8f2a;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 0.7rem 2rem;
+}
+
+.dest-slider-controls .swiper-button-prev,
+.swiper-button-next {
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+.country-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .blur_circle1 {
   border-radius: 390.099px;
   background: #dbe6ed;
   filter: blur(65.14471435546875px);
-  z-index: -1;
   /* top: -25%;
   left: -6%; */
   position: absolute;
+  z-index: -1;
   width: 390.099px;
   height: 390.099px;
 }

@@ -15,21 +15,28 @@ font-family: "Roboto", sans-serif; */
 }
 
 .testBorder {
-  border: 2px solid rgba(255, 0, 0, 0.169);
+  /* border: 2px solid rgba(255, 0, 0, 0.169); */
+  outline: 2px solid rgba(255, 0, 0, 0.169);
 }
 
 .mainWrapper {
   background-color: #ffffff;
   position: relative;
+  z-index: 0;
 }
 
 li {
   list-style: none;
 }
+a {
+  text-decoration: none;
+}
 
 li a {
   text-decoration: none;
 }
+
+
 
 .react-datepicker__input-container .date_input {
   border: none;
@@ -43,4 +50,3 @@ li a {
   width: 90%;
   margin-left: 5%;
 }
-

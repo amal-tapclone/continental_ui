@@ -1,0 +1,127 @@
+.our-experience {
+  height: 38.625rem;
+  width: 100%;
+  background: url(../../assets/HomePage/destination_bg.jpg) center/cover
+    no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-experience .exp-wrap {
+  width: 80%;
+  height: 35.625rem;
+}
+
+.exp-wrap .exp-content {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1.2fr 2fr;
+}
+
+.exp-content .img-sec {
+  position: relative;
+}
+
+.exp-content .img-sec .overSeasImg {
+  position: absolute;
+  width: 118%;
+  left: -2%;
+  bottom: 3%;
+}
+
+.exp-content .img-sec .howExperinece {
+  position: absolute;
+  width: 50%;
+  bottom: 8%;
+  right: -14%;
+}
+
+.exp-content .img-sec .overseasPattern {
+  position: absolute;
+  width: 50%;
+  left: 0;
+  top: 8%;
+}
+
+.exp-content .img-sec .flyingArrow {
+  position: absolute;
+  width: 25%;
+  right: -5%;
+  top: -1%;
+}
+
+.exp-content .counter-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  padding-top: 5%;
+  margin-left: 15%;
+  font-family: Montserrat;
+  gap: 4%;
+}
+
+.counter-sec .title {
+  color: #fb8f2a;
+  font-size: 1rem;
+  font-weight: 700;
+  /* line-height: 1.8rem; */
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.counter-sec .head {
+  color: #1a093f;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 4.5rem;
+}
+
+.counter-sec .desc {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+  width: 80%;
+}
+
+.counter-sec .counter-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+  width: 95%;
+}
+
+.counter-sec .counter-part h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #fb8f2a;
+}
+
+.counter-part .border {
+  position: relative;
+}
+
+.counter-part .universities::before {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 3.8rem;
+  background: #35313e;
+  top: 10%;
+  right: -40%;
+  opacity: 0.10000000149011612;
+}
+
+.counter-part .countries::before {
+  position: absolute;
+  content: "";
+  width: 3.2px;
+  height: 3.8rem;
+  background: #35313e;
+  top: 10%;
+  opacity: 0.10000000149011612;
+  right: -55%;
+}
