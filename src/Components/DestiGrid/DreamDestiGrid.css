@@ -1,0 +1,92 @@
+.DreamDestiGrid {
+  height: 124rem;
+  width: 100%;
+  background: url(../../assets/HomePage/Frame\ 40.png) center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.DreamDestiGrid .dream-dest-wrap {
+  height: 95%;
+  width: 88%;
+  font-family: Montserrat;
+  position: relative;
+}
+
+.dream-dest-wrap .orange-btn {
+  border-radius: 24.06px;
+  background: #fb8f2a;
+  border: none;
+  color: white;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.8rem 2rem;
+  position: absolute;
+  bottom: -0.5%;
+  transform: translate(-50%, 0);
+  left: 50%;
+}
+
+.dream-dest-wrap h4 {
+  color: #fb8f2a;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.dream-dest-wrap h1 {
+  color: #1a093f;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 3.5rem;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.dream-dest-wrap .desti-grid {
+  width: 93%;
+  margin: 4% auto 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 4%;
+  row-gap: 7%;
+}
+
+.desti-grid .destImages {
+  position: relative;
+  cursor: pointer;
+}
+
+.destImages .country-name {
+  position: absolute;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.15);
+  -webkit-backdrop-filter: blur(7.5px);
+  backdrop-filter: blur(7.5px);
+  bottom: -0.6%;
+  border-radius: 15px;
+  height: 4rem;
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  left: 50%;
+  bottom: -5%;
+  transform: translate(-50%, 0);
+  padding: 0.1rem 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 88%;
+}
+
+.destImages img {
+  max-width: 110%;
+  height: 111%;
+}

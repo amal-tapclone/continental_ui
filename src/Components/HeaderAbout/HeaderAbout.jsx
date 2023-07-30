@@ -9,8 +9,6 @@ import launchRocket from "../../assets/HomePage/Launch.png";
 import aboutMainBg from "../../assets/HomePage/aboutMainBg.png";
 import book from "../../assets/HomePage/book.svg";
 import cloud from "../../assets/HomePage/cloud.png";
-
-
 import dateWhite from "../../assets/HomePage/DateIco_white.svg";
 import downIcon from "../../assets/HomePage/Down Icon.svg";
 

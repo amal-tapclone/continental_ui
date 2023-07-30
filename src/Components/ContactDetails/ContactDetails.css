@@ -1,0 +1,103 @@
+.ContactDetails {
+  height: 51rem;
+  width: 100%;
+  background: url(../../assets/HomePage/destination_bg.jpg) center/cover
+    no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ContactDetails .contacts-wrap {
+  width: 88%;
+  height: 90%;
+}
+
+.contacts-wrap .contacts-text-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  font-family: Montserrat;
+}
+
+.contacts-text-sec h3 {
+  color: #fb8f2a;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.contacts-text-sec h1 {
+  color: #1a093f;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 3.5rem;
+  text-transform: capitalize;
+}
+
+.contacts-text-sec p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 30px;
+  max-width: 40%;
+  text-align: center;
+}
+
+.contacts-wrap .contact-image-btns {
+  display: flex;
+}
+
+.contact-image-btns .contact-Img,
+.contact-details {
+  flex: 1;
+}
+
+.contact-image-btns .contact-details {
+  display: flex;
+  flex-direction: column;
+  font-family: Montserrat;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.contact-details .contact_cards {
+  width: 70%;
+  border-radius: 18.259px;
+  background: #fff;
+  box-shadow: 0px 18.2586669921875px 73.03466796875px 0px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem 2.2rem;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  margin-left: 2.8rem;
+}
+
+.contact_cards .text-details{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.contact_cards img {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.contact_cards .text-details h3 {
+  font-size: 1.36rem;
+  font-weight: 700;
+}
+
+.contact_cards .text-details p {
+  color: #8d8d8d;
+  font-weight: 500;
+  font-size: 1.36rem;
+}
+
+.contact-image-btns .contact-Img img {
+  max-width: 100%;
+  height: auto;
+}

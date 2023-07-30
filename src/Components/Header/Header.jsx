@@ -8,15 +8,16 @@ import date from "../../assets/HomePage/Date Icon.svg";
 import search from "../../assets/HomePage/Search Icon.svg";
 import dateWhite from "../../assets/HomePage/DateIco_white.svg";
 import downIcon from "../../assets/HomePage/Down Icon.svg";
+import videoGif from "../../assets/HomePage/video.mp4";
 import "./Header.css";
 import NavBar from "./NavBar";
 
 const Header = () => {
   const [startDate, setStartDate] = useState(new Date());
   return (
-    <header className={`header_wrap`}>
+    <section className={`header_wrap`}>
       <NavBar />
-      <div className={`hero_section  testBorder`}>
+      <div className={`hero_section  `}>
         <div className={`hero_content `}>
           <div className={`abroad_search`}>
             <div className={`abroad_title`}>
@@ -62,6 +63,17 @@ const Header = () => {
             <p>
               “Study & Explore <br /> The World”
             </p>
+          </div>
+
+          <div class="video-container ">
+            <video
+              className="video"
+              style={{ border: "none" }}
+              src={videoGif}
+              autoPlay={true}
+              loop={true}
+              muted
+            />
           </div>
         </div>
 
@@ -117,7 +129,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </header>
+    </section>
   );
 };
 

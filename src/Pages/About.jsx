@@ -9,6 +9,7 @@ import Subscription from "../Components/Subscription/Subscription";
 import Footer from "../Components/Footer/Footer";
 import OurVision from "../Components/OurVision/OurVision";
 import OurMission from "../Components/OurMission/OurMission";
+import "../global.css";
 
 const About = () => {
   useScrollToTop();

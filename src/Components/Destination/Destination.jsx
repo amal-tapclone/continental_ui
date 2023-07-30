@@ -4,32 +4,12 @@ import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "./Destination.css";
-import canada from "../../assets/HomePage/canada.png";
-import new_zealand from "../../assets/HomePage/newZealand.png";
-import italy from "../../assets/HomePage/italy.png";
-import australia from "../../assets/HomePage/australia.png";
-import uk from "../../assets/HomePage/uk.png";
-import France from "../../assets/HomePage/france.png";
-import spain from "../../assets/HomePage/spain.png";
-import malta from "../../assets/HomePage/malta.png";
-import germany from "../../assets/HomePage/germany.png";
 import leftArrow from "../../assets/HomePage/dest_left_arrow.svg";
 import rightArrow from "../../assets/HomePage/dest_right_arrow.svg";
 import { useNavigate } from "react-router-dom";
+import countries from "../../Constants/Constants";
 
 const Destination = () => {
-  const countries = [
-    { name: "Canada", countryimg: canada },
-    { name: "new zealand", countryimg: new_zealand },
-    { name: "italy", countryimg: italy },
-    { name: "australia", countryimg: australia },
-    { name: "uk", countryimg: uk },
-    { name: "France", countryimg: France },
-    { name: "spain", countryimg: spain },
-    { name: "malta", countryimg: malta },
-    { name: "germany", countryimg: germany },
-  ];
-
   const navigate = useNavigate();
   return (
     <section className="destination-sec">

@@ -1,0 +1,59 @@
+.education-sys {
+  height: 38rem;
+  width: 100%;
+  background: url(../../assets/HomePage/destination_bg.jpg) center/cover
+    no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.education-sys .education-wrap {
+  width: 88%;
+  height: 90%;
+  display: flex;
+}
+
+.education-wrap .eduSys-text,
+.eduSys-Img {
+  flex: 1;
+}
+
+.education-wrap .eduSys-text {
+  padding-left: 7%;
+}
+
+.education-wrap .eduSys-Img {
+  width: 100%;
+}
+
+.education-wrap .eduSys-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Montserrat;
+  gap: 1%;
+}
+
+.eduSys-text h3 {
+  color: #fb8f2a;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.8rem;
+}
+
+.eduSys-text h1 {
+  color: #1a093f;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 3.5rem;
+  text-transform: capitalize;
+}
+
+.eduSys-text p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+  max-width: 88%;
+}

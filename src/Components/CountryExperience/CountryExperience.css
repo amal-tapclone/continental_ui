@@ -1,0 +1,60 @@
+.countryExp {
+  height: 40rem;
+  width: 100%;
+  background: url(../../assets/HomePage/overseasBg.jpg) center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countryExp .country-expWrap {
+  height: 90%;
+  width: 88%;
+  display: flex;
+  font-family: Montserrat;
+}
+
+.country-expWrap .country-image,
+.country-text-sec {
+  flex: 1;
+}
+
+.country-expWrap .country-text-sec {
+  padding-left: 3%;
+  padding-top: 3%;
+  display: flex;
+  flex-direction: column;
+  gap: 1%;
+}
+
+.country-expWrap .country-image {
+  position: relative;
+}
+
+.country-image img {
+  width: 100%;
+  position: absolute;
+  top: 10%;
+}
+
+.country-text-sec h3 {
+  color: #fb8f2a;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.8rem;
+}
+
+.country-text-sec h1 {
+  color: #1a093f;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 3.5rem;
+  text-transform: capitalize;
+}
+.country-text-sec p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+  max-width: 81%;
+}
