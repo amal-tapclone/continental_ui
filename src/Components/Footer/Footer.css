@@ -12,7 +12,7 @@ footer .footer-container {
   width: 88%;
   height: 23rem;
   display: grid;
-  grid-template-columns: 1.2fr repeat(3, 1fr);
+  grid-template-columns: 1.6fr repeat(3, 1fr);
   position: relative;
 }
 
@@ -148,4 +148,21 @@ footer .credits {
   font-size: 1.25rem;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 1373px) {
+  footer .footer-container {
+    width: 90%;
+  }
+
+  .footer-container .logo {
+    margin-bottom: 0;
+    align-items: start;
+  }
+
+  .logo .info_link,
+  .phone,
+  .follow_us h4 {
+    margin-left: 5%;
+  }
 }

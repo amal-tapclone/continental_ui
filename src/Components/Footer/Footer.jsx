@@ -12,8 +12,8 @@ const Footer = () => {
       <div className="footer-container ">
         <div className="logo ">
           <img className="contint_logo" src={logo} alt="logo" />
-          <p className="info_link">info@blackboardindia.com</p>
-          <p className="phone">+91 9990-810-810</p>
+          <p className="info_link">info@continentaloverseaseducation.com</p>
+          <p className="phone">+91 98462 77171</p>
           <div className="follow_us ">
             <h4>Follow Us:</h4>
             <a href="#">
