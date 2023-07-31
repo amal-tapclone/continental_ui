@@ -129,3 +129,31 @@
   height: 2.8rem;
   cursor: pointer;
 }
+
+@media (max-width: 1373px) {
+  .WhyChooseUs .WhyChooseUs-wrap {
+    width: 90%;
+  }
+
+  .slider-part .slider-con {
+    gap: 5%;
+  }
+
+  .slider-part div h3 {
+    font-size: 1.1rem;
+  }
+
+  .slider-part div p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+  }
+
+  .slider-part div img {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+
+  .WhyChooseUs-wrap .choose-slid-ctrls {
+    width: 11%;
+  }
+}

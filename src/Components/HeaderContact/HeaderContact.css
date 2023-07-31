@@ -4,6 +4,7 @@
   height: 48rem;
   position: relative;
   background: url(../../assets/HomePage/Frame\ 40.png) center/cover no-repeat;
+  overflow: hidden;
 }
 
 .contact_hero_section {
@@ -113,4 +114,10 @@
   height: 3.6rem;
   border: none;
   background: transparent;
+}
+
+@media (max-width: 1373px) {
+  .contact_hero_section .contactMainImage {
+    left: 40.5%;
+  }
 }

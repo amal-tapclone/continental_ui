@@ -10,7 +10,7 @@ import linkedin from "../../assets/HomePage/Icon awesome-linkedin-in.svg";
 const NavBar = () => {
   const isSticky = useStickyNav();
   return (
-    <nav className={`${isSticky ? "sticky_nav" : "nav_active"} testBorder`}>
+    <nav className={`${isSticky ? "sticky_nav" : "nav_active"} `}>
       <div className={`logo`}>
         <img src={logo} alt="logo" draggable={false} />
       </div>

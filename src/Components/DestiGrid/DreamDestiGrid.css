@@ -61,6 +61,8 @@
 .desti-grid .destImages {
   position: relative;
   cursor: pointer;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .destImages .country-name {
@@ -89,4 +91,11 @@
 .destImages img {
   max-width: 110%;
   height: 111%;
+}
+
+@media (max-width: 1373px) {
+  .destImages .country-name {
+    height: 3rem;
+    font-size: 1.5rem;
+  }
 }

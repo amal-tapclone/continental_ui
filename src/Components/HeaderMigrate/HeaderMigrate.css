@@ -4,6 +4,11 @@
   height: 55rem;
   position: relative;
   background: url(../../assets/HomePage/Frame\ 40.png) center/cover no-repeat;
+  overflow: hidden;
+}
+
+.migrate_head_wrap::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
 }
 
 .migrate_hero_section {
@@ -35,8 +40,6 @@
   transform: translate(-50%, -50%);
   z-index: 2;
 }
-
-
 
 .migrateMainImage .cloud {
   position: absolute;
@@ -115,4 +118,10 @@
   height: 3.6rem;
   border: none;
   background: transparent;
+}
+
+@media (max-width: 1373px) {
+  .migrate_hero_section .migrateMainImage {
+    left: 40.5%;
+  }
 }

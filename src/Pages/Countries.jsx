@@ -9,8 +9,12 @@ import BlogSection from "../Components/BlogSection/BlogSection";
 import Subscription from "../Components/Subscription/Subscription";
 import Footer from "../Components/Footer/Footer";
 import AccordionGuidlines from "../Components/AccordionGuidlines/AccordionGuidlines";
+import useScrollToTop from "../Hooks/useScrollToTop";
+
 
 const Countries = () => {
+  useScrollToTop();
+
   let { countryName } = useParams();
   return (
     <div className="mainWrapper">

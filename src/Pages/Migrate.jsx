@@ -7,8 +7,11 @@ import Testimonials from "../Components/Testimonials/Testimonials";
 import BlogSection from "../Components/BlogSection/BlogSection";
 import Subscription from "../Components/Subscription/Subscription";
 import Footer from "../Components/Footer/Footer";
+import useScrollToTop from "../Hooks/useScrollToTop";
 
 const Migrate = () => {
+  useScrollToTop();
+
   return (
     <div className="mainWrapper">
       <HeaderMigrate />

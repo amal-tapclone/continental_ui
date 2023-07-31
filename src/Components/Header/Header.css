@@ -39,7 +39,8 @@ nav::after {
 .sticky_nav {
   position: fixed;
   margin: 0% auto 0;
-  background: url(../../assets/HomePage/destination_bg.jpg) center/cover no-repeat;
+  background: url(../../assets/HomePage/destination_bg.jpg) center/cover
+    no-repeat;
   top: 0%;
   left: 6%;
   z-index: 22;
@@ -64,7 +65,8 @@ nav .logo {
 } */
 
 nav .links {
-  margin-left: 12.9rem;
+  /* margin-left: 12.9rem; */
+  margin-left: 15%;
   width: 100%;
   display: flex;
 }
@@ -106,7 +108,8 @@ nav .links .nav_links {
 }
 
 nav .connect_links {
-  margin-left: 4.3rem;
+  /* margin-left: 4.3rem; */
+  margin-left: 4%;
   padding-top: 0.3rem;
   width: 7rem;
   display: flex;
@@ -121,7 +124,8 @@ nav .contactBtn {
   background: transparent;
   border-radius: 16px;
   border: 1.5px solid #6347eb;
-  margin-left: 3.18rem;
+  /* margin-left: 3.18rem; */
+  margin-left: 8%;
   font-size: 1.25rem;
   font-weight: 600;
   cursor: pointer;
@@ -346,6 +350,31 @@ nav .contactBtn {
   font-style: normal;
   outline: none;
   margin-left: 0.6rem;
+}
+
+/* media queries */
+
+@media (max-width: 1373px) {
+  nav .links {
+    margin-left: 12%;
+  }
+
+  nav .links .nav_links {
+    width: 25.8rem;
+    font-size: 1.1rem;
+  }
+
+  nav .contactBtn {
+    margin-left: 5%;
+  }
+
+  nav .connect_links {
+    width: 5.2rem;
+  }
+
+  .hero_content .video-container {
+    top: 14%;
+  }
 }
 
 /* .blur_circle1 {

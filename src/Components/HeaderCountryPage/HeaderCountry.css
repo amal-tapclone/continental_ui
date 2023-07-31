@@ -4,6 +4,7 @@
   height: 50rem;
   position: relative;
   background: url(../../assets/HomePage/Frame\ 40.png) center/cover no-repeat;
+  overflow: hidden;
 }
 
 .country_hero_section {
@@ -29,10 +30,9 @@
   z-index: 2;
 }
 
-.country_hero_section .countryMainImage .countryImg{
-    width: 100%;
+.country_hero_section .countryMainImage .countryImg {
+  width: 100%;
 }
-
 
 .countryMainImage .course_panel {
   position: absolute;
@@ -65,4 +65,13 @@
   height: 3.6rem;
   border: none;
   background: transparent;
+}
+
+@media (max-width: 1373px) {
+  .country_hero_section .countryMainImage {
+    left: 25.5%;
+  }
+  .countryMainImage .course_panel {
+    left: 30.5%;
+  }
 }
