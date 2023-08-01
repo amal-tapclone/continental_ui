@@ -1,5 +1,5 @@
 import React from "react";
-import mapGetin from "../../assets/HomePage/mapGetIn-min.png";
+import mapGetin from "../../assets/HomePage/contactImageMap.png";
 import "./GetInTouchForm.css";
 
 const GetInTouchForm = () => {
