@@ -153,6 +153,7 @@ footer .credits {
 @media (max-width: 1373px) {
   footer .footer-container {
     width: 90%;
+    grid-template-columns: 1.4fr repeat(3, 1fr);
   }
 
   .footer-container .logo {
@@ -164,5 +165,13 @@ footer .credits {
   .phone,
   .follow_us h4 {
     margin-left: 5%;
+  }
+
+  .support a {
+    margin-left: 12%;
+  }
+
+  .support h1 {
+    margin-right: 34%;
   }
 }

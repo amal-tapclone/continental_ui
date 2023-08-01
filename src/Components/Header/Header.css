@@ -266,25 +266,46 @@ nav .contactBtn {
   z-index: 2;
 }
 
-.hero_content .video-container {
+.hero_content .heroCircleText {
+  position: absolute;
+  top: -8%;
+  right: -3%;
+  width: 39%;
+}
+
+.hero_content .heroCircleText img {
+  width: 100%;
+}
+
+.hero_content .globe-container {
   position: absolute;
   bottom: 0;
   z-index: 1;
-  width: 65%;
-  height: 29.8rem;
-  top: 6%;
-  left: 20%;
+  width: 95%;
+  height: 30.8rem;
+  top: 15%;
+  left: 2%;
   overflow: hidden;
   border: 1px solid transparent;
   padding: 1rem;
-  /* mix-blend-mode: overlay;  */
+  padding-top: 35px;
+  padding: 6.5% 5% 0;
 }
 
-.video-container .video {
+.globe-container .rotate-globe {
+  width: 100%;
+}
+
+.hero_content .ladyGlobe {
   position: absolute;
-  width: 103%;
-  top: -0.3%;
-  left: -0.2%;
+  bottom: -2%;
+  left: 55%;
+  z-index: 3;
+  width: 43.5%;
+  transform: translate(-50%, 0);
+}
+.hero_content .ladyGlobe img {
+  width: 100%;
 }
 
 /* course-panel */
@@ -370,10 +391,6 @@ nav .contactBtn {
 
   nav .connect_links {
     width: 5.2rem;
-  }
-
-  .hero_content .video-container {
-    top: 14%;
   }
 }
 

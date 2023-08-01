@@ -4,6 +4,7 @@ import { Autoplay, Navigation } from "swiper/modules";
 import testiIcon from "../../assets/HomePage/testiIcon.svg";
 import leftArrow from "../../assets/HomePage/dest_left_arrow.svg";
 import rightArrow from "../../assets/HomePage/dest_right_arrow.svg";
+import { testiMonialsArr } from "../../Constants/Constants";
 import "swiper/css";
 import "swiper/css/navigation";
 import "./Testimonials.css";
@@ -16,9 +17,11 @@ const Testimonials = () => {
           <p className="test-title">what they Say </p>
           <h1 className="test-head">Let’s hear from our students</h1>
           <p className="test-desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-            dictum rhoncus vulputate egestas pretium at. Rhoncus, blandit massa
-            dui.
+            Discover the real stories and experiences of our vibrant student
+            community as they share their journey of growth, challenges
+            conquered, and the transformative impact of studying abroad. Find
+            inspiration in their voices and be motivated to embark on your own
+            unforgettable adventure.
           </p>
         </div>
 
@@ -41,78 +44,19 @@ const Testimonials = () => {
             centeredSlides={false}
             className="testi-slid"
           >
-            <SwiperSlide className="test-slider-con ">
-              <div className="msgSlideWrap">
-                <h3>Dream Scholarship</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur elit. Auctor neque sed
-                  imperdiet nibh lectus feugiat nunc sem.
-                </p>
-              </div>
-              <img src={testiIcon} alt="avatar" />
-              <h4>Jane Cooper</h4>
-              <h6>Kochi</h6>
-            </SwiperSlide>
-            <SwiperSlide className="test-slider-con ">
-              <div className="msgSlideWrap">
-                <h3>Best Memories</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur elit. Auctor neque sed
-                  imperdiet nibh lectus feugiat nunc sem.
-                </p>
-              </div>
-              <img src={testiIcon} alt="avatar" />
-              <h4>Sara Lio</h4>
-              <h6>Aluva</h6>
-            </SwiperSlide>
-            <SwiperSlide className="test-slider-con ">
-              <div className="msgSlideWrap">
-                <h3>Unstoppable</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur elit. Auctor neque sed
-                  imperdiet nibh lectus feugiat nunc sem.
-                </p>
-              </div>
-              <img src={testiIcon} alt="avatar" />
-              <h4>Jane Cooper</h4>
-              <h6>Kannur</h6>
-            </SwiperSlide>
-            <SwiperSlide className="test-slider-con ">
-              <div className="msgSlideWrap">
-                <h3>Dream Scholarship</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur elit. Auctor neque sed
-                  imperdiet nibh lectus feugiat nunc sem.
-                </p>
-              </div>
-              <img src={testiIcon} alt="avatar" />
-              <h4>Jane Cooper</h4>
-              <h6>Kochi</h6>
-            </SwiperSlide>
-            <SwiperSlide className="test-slider-con ">
-              <div className="msgSlideWrap">
-                <h3>Best Memories</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur elit. Auctor neque sed
-                  imperdiet nibh lectus feugiat nunc sem.
-                </p>
-              </div>
-              <img src={testiIcon} alt="avatar" />
-              <h4>Sara Lio</h4>
-              <h6>Aluva</h6>
-            </SwiperSlide>
-            <SwiperSlide className="test-slider-con ">
-              <div className="msgSlideWrap">
-                <h3>Unstoppable</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur elit. Auctor neque sed
-                  imperdiet nibh lectus feugiat nunc sem.
-                </p>
-              </div>
-              <img src={testiIcon} alt="avatar" />
-              <h4>Jane Cooper</h4>
-              <h6>Kannur</h6>
-            </SwiperSlide>
+            {testiMonialsArr.map(
+              ({ img, head, description, author, place }) => (
+                <SwiperSlide className="test-slider-con ">
+                  <div className="msgSlideWrap">
+                    <h3>{head}</h3>
+                    <p>{description}</p>
+                  </div>
+                  <img src={img} alt="avatar" />
+                  <h4>{author}</h4>
+                  <h6>{place}</h6>
+                </SwiperSlide>
+              )
+            )}
           </Swiper>
 
           <div className="test-slider-controls ">

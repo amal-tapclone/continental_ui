@@ -9,6 +9,7 @@ import location_pers from "../../assets/HomePage/Location_perspective_matte.png"
 import calender_pers from "../../assets/HomePage/Calendar_perspective_matte.png";
 import leftArrow from "../../assets/HomePage/dest_left_arrow.svg";
 import rightArrow from "../../assets/HomePage/dest_right_arrow.svg";
+import { whyChooseArr } from "../../Constants/Constants";
 
 const WhyChooseUs = () => {
   return (
@@ -18,8 +19,8 @@ const WhyChooseUs = () => {
           <p className="title">Steps to Future </p>
           <h1 className="head">Why Choose Us</h1>
           <p className="desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut.
+            we present you with a diverse array of top-notch academic
+            institutions.
           </p>
         </div>
         <div className="slider-part ">
@@ -36,36 +37,13 @@ const WhyChooseUs = () => {
             centeredSlides={false}
             className="choose-us-slid "
           >
-            <SwiperSlide className="slider-con ">
-              <img src={Message_pers} alt=" chat-bubble" />
-              <h3>Overseas Assistance</h3>
-              <p>Lorem ipsum dolor sit amet, ctetur adipiscing elit.</p>
-            </SwiperSlide>
-            <SwiperSlide className="slider-con ">
-              <img className="" src={location_pers} alt="location" />
-              <h3>Scholarships and Grants</h3>
-              <p>Lorem ipsum dolor sit amet, ctetur adipiscing elit.</p>
-            </SwiperSlide>
-            <SwiperSlide className="slider-con ">
-              <img src={calender_pers} alt="calender" />
-              <h3>Share your travel preference</h3>
-              <p>Lorem ipsum dolor sit amet, ctetur adipiscing elit.</p>
-            </SwiperSlide>
-            <SwiperSlide className="slider-con ">
-              <img src={Message_pers} alt=" chat-bubble" />
-              <h3>Overseas Assistance</h3>
-              <p>Lorem ipsum dolor sit amet, ctetur adipiscing elit.</p>
-            </SwiperSlide>
-            <SwiperSlide className="slider-con ">
-              <img className="" src={location_pers} alt="location" />
-              <h3>Scholarships and Grants</h3>
-              <p>Lorem ipsum dolor sit amet, ctetur adipiscing elit.</p>
-            </SwiperSlide>
-            <SwiperSlide className="slider-con ">
-              <img src={calender_pers} alt="calender" />
-              <h3>Share your travel preference</h3>
-              <p>Lorem ipsum dolor sit amet, ctetur adipiscing elit.</p>
-            </SwiperSlide>
+            {whyChooseArr.map(({ img, head, desc }) => (
+              <SwiperSlide className="slider-con ">
+                <img src={img} alt="calender" />
+                <h3>{head}</h3>
+                <p>{desc}</p>
+              </SwiperSlide>
+            ))}
           </Swiper>
 
           <div className="choose-slid-ctrls ">

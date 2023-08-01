@@ -1,5 +1,5 @@
 .testimonials-sec {
-  height: 48rem;
+  height: 55rem;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -10,7 +10,7 @@
 
 .testimonials-sec .testimonials-wrap {
   width: 80%;
-  height: 36rem;
+  height: 45rem;
   display: flex;
   flex-direction: column;
 }

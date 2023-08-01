@@ -1,5 +1,5 @@
 .WhyChooseUs {
-  height: 36rem;
+  height: 38rem;
   width: 100%;
   background: url(../../assets/HomePage/why_choose.jpg) center/cover;
   display: flex;
@@ -20,7 +20,7 @@
 }
 
 .WhyChooseUs .WhyChooseUs-wrap {
-  height: 32rem;
+  height: 36rem;
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -64,7 +64,7 @@
 
 .WhyChooseUs-wrap .slider-part {
   margin-top: auto;
-  height: 17.5rem;
+  height: 20.5rem;
   display: flex;
 }
 
@@ -86,7 +86,7 @@
   display: flex;
   flex-direction: column;
   padding: 1.25rem;
-  gap: 8%;
+  gap: 4%;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2),
     /* Bottom shadow */ 0 5px 5px -3px rgba(0, 0, 0, 0.3),
     /* Bottom-left shadow */ 0 5px 5px -3px rgba(0, 0, 0, 0.3); /* Bottom-right shadow */
@@ -102,7 +102,7 @@
 .slider-part div p {
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.87rem;
+  line-height: 1.80rem;
   color: #8c849f;
   width: 90%;
 }
@@ -157,3 +157,4 @@
     width: 11%;
   }
 }
+

@@ -28,21 +28,24 @@ const ContactDetails = () => {
               <img src={Email} alt="" />
               <div className="text-details">
                 <h3>Email us</h3>
-                <p>flyworld@.com</p>
+                <p>info@continentaloverseaseducation.com</p>
               </div>
             </div>
             <div className="contact_cards ">
               <img src={Call} alt="" />
               <div className="text-details">
                 <h3>Call Us</h3>
-                <p>(444) 555 - 6666</p>
+                <p>+91 98462 77171</p>
               </div>
             </div>
             <div className="contact_cards ">
               <img src={Location} alt="" />
               <div className="text-details">
                 <h3>Our Location</h3>
-                <p>102, Lorem Ipsum, 031526</p>
+                <p>
+                  Continental House, Master Coaching Board Rd, Kaloor,
+                  Ernakulam, Kerala 682017
+                </p>
               </div>
             </div>
           </div>

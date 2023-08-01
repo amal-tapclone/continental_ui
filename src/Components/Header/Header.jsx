@@ -8,12 +8,55 @@ import date from "../../assets/HomePage/Date Icon.svg";
 import search from "../../assets/HomePage/Search Icon.svg";
 import dateWhite from "../../assets/HomePage/DateIco_white.svg";
 import downIcon from "../../assets/HomePage/Down Icon.svg";
-import videoGif from "../../assets/HomePage/video.mp4";
+import globeTransp from "../../assets/HomePage/transparentGlobe.png";
+import ladyGlobe from "../../assets/HomePage/flying-student-min.png";
+import heroCircle from "../../assets/HomePage/homeHero-circle-min.png";
+import { gsap } from "gsap";
 import "./Header.css";
 import NavBar from "./NavBar";
 
 const Header = () => {
   const [startDate, setStartDate] = useState(new Date());
+  const rotateImage = () => {
+    gsap.to(".rotate-globe", {
+      rotation: 360 * 4,
+      repeat: -1,
+      duration: 70, //  duration of the first rotation
+      ease: "none",
+    });
+  };
+
+  const pulseGirl = () => {
+    const t1 = gsap.timeline();
+    t1.to(".ladyGlobe", {
+      x: "-=10",
+      y: "-=20",
+      rotationZ: "-=1.5",
+      duration: 3,
+      repeat: -1,
+      yoyo: true,
+      ease: "power1.inOut",
+    });
+  };
+
+  const pulseHeroText = () => {
+    const duration = 3;
+    const scale = 0.96;
+    gsap.to(".heroCircleText", {
+      scale: scale,
+      duration: duration / 2,
+      ease: "power2.inOut",
+      repeat: -1,
+      yoyo: true,
+    });
+  };
+
+  useEffect(() => {
+    rotateImage();
+    pulseGirl();
+    pulseHeroText();
+  }, []);
+
   return (
     <section className={`header_wrap`}>
       <NavBar />
@@ -65,14 +108,19 @@ const Header = () => {
             </p>
           </div>
 
-          <div class="video-container ">
-            <video
-              className="video"
-              style={{ border: "none" }}
-              src={videoGif}
-              autoPlay={true}
-              loop={true}
-              muted
+          <div className="heroCircleText ">
+            <img src={heroCircle} alt="circle-background" />
+          </div>
+
+          <div className="ladyGlobe ">
+            <img src={ladyGlobe} alt="" />
+          </div>
+
+          <div class="globe-container ">
+            <img
+              src={globeTransp}
+              className="rotate-globe"
+              alt="globe-transparent"
             />
           </div>
         </div>

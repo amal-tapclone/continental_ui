@@ -15,15 +15,17 @@ const Overseas = () => {
               Continental <span>O</span>verseas
             </h1>
             <p className="desc">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-              dictum rhoncus vulputate egestas pretium at. Rhoncus, blandit
-              massa dui felis imperdiet. Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit. Morbi dictum rhoncus vulputate egestas pretium
-              at. Rhoncus, blandit massa dui felis imperdiet. 
+              Step into a world of boundless opportunities, Whether you dream of
+              studying at renowned universities, embarking on enriching cultural
+              experiences, or charting a course towards a successful career, we
+              are your trusted guide. With expert counselors, a vast network of
+              top-tier institutions, and a commitment to your aspirations, we're
+              here to shape your international academic journey into an
+              unforgettable adventure.
             </p>
             <p className="desc">
-              at. Rhoncus, blandit massa dui felis imperdiet. Lorem ipsum dolor
-              sit amet, consectetur adipiscing elit. Morbi dictum rhoncus Lorem ipsum dolor
+              Embrace the transformative power of global education with us, and
+              let your dreams take flight. Welcome aboard!
             </p>
             <button className="get-start-btn"> Get Started</button>
           </div>

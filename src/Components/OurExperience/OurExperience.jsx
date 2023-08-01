@@ -34,9 +34,9 @@ const OurExperience = () => {
               Your Most Reliable <br /> Overseas Partner
             </h1>
             <p className="desc">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-              dictum rhoncus vulputate egestas pretium at. Rhoncus, blandit
-              massa dui felis imperdiet.
+              With a steadfast commitment to your dreams, we stand by your side
+              as a trusted and dependable ally, guiding you towards a world of
+              global opportunities and turning your aspirations into reality.
             </p>
             <div className="counter-part">
               <div className="countries border ">

@@ -14,6 +14,12 @@ import blogImg3 from "../assets/HomePage/girl3-min.png";
 
 import recentBlogPic from "../assets/HomePage/recentBlogsImg-min.png";
 
+import Message_pers from "../assets/HomePage/Message_perspective_matte.png";
+import location_pers from "../assets/HomePage/Location_perspective_matte.png";
+import calender_pers from "../assets/HomePage/Calendar_perspective_matte.png";
+
+import testiIcon from "../assets/HomePage/testiIcon.svg";
+
 const countries = [
   { name: "Canada", countryimg: canada },
   { name: "new zealand", countryimg: new_zealand },
@@ -92,5 +98,89 @@ export const recentBlogArr = [
     postHeading: "Journeys are best measured in new friends",
     postDesc:
       "You just need to enter the keyword and select the keyword type to generate a list of 6 title ideas and suggestions. If you’re not satisfied with the results, you can always hit the refresh button to generate a new list of unique titles. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue proin sit adipiscing vulputate Purus ipsum dolor 6 title ideas and suggestions. If you’re not satisfied with the results.",
+  },
+];
+
+export const whyChooseArr = [
+  {
+    img: Message_pers,
+    head: "Overseas Assistance",
+    desc: "We are your dedicated overseas assistance partner, providing comprehensive pre-departure guidance, travel arrangements.",
+  },
+  {
+    img: location_pers,
+    head: "Scholarships and Grants",
+    desc: "We empower ambitious students with financial support, turning their dreams of studying abroad into a reality.",
+  },
+  {
+    img: calender_pers,
+    head: "Share your travel preference",
+    desc: "We foster a collaborative community by encouraging students to share their travel expenses.",
+  },
+  {
+    img: Message_pers,
+    head: "Overseas Assistance",
+    desc: "We are your dedicated overseas assistance partner, providing comprehensive pre-departure guidance, travel arrangements.",
+  },
+  {
+    img: location_pers,
+    head: "Scholarships and Grants",
+    desc: "We empower ambitious students with financial support, turning their dreams of studying abroad into a reality.",
+  },
+  {
+    img: calender_pers,
+    head: "Share your travel preference",
+    desc: "We foster a collaborative community by encouraging students to share their travel expenses.",
+  },
+];
+
+export const testiMonialsArr = [
+  {
+    img: testiIcon,
+    author: "Akhil Menon",
+    place: "Trivandrum",
+    head: "Best Memories",
+    description:
+      "Study abroad memories: Exploring picturesque cities, forging lifelong friendships, and shaping my outlook on life – all thanks to Continental Overseas.",
+  },
+  {
+    img: testiIcon,
+    author: "Sidharth Shiva",
+    place: "Kochi",
+    head: "Unstoppable",
+    description:
+      "Nothing could stop me from pursuing my dreams, thanks to the unwavering support I received from Continental Overseas. With their expert counseling and scholarship opportunities, I overcame all obstacles and set foot in a foreign land.",
+  },
+  {
+    img: testiIcon,
+    author: "Vijay",
+    place: "Calicut",
+    head: "Dream Scholarship",
+    description:
+      "Securing the dream scholarship to study at my dream university felt like a dream come true! Thanks to the support and guidance from continental overseas, I not only received financial assistance but also gained the confidence to pursue my passion for research.",
+  },
+  {
+    img: testiIcon,
+    head: "Best Memories",
+    author: "Akhil Menon",
+    place: "Trivandrum",
+    description:
+      "Study abroad memories: Exploring picturesque cities, forging lifelong friendships, and shaping my outlook on life – all thanks to Continental Overseas.",
+  },
+  {
+    img: testiIcon,
+    head: "Unstoppable",
+    author: "Sidharth Shiva",
+    place: "Kochi",
+    description:
+      "Nothing could stop me from pursuing my dreams, thanks to the unwavering support I received from Continental Overseas. With their expert counseling and scholarship opportunities, I overcame all obstacles and set foot in a foreign land.",
+  },
+  {
+    img: testiIcon,
+    head: "Dream Scholarship",
+    author: "Vijay",
+    place: "Calicut",
+    description:
+      "Securing the dream scholarship to study at my dream university felt like a dream come true! Thanks to the support and guidance from continental overseas, I not only received financial assistance but also gained the confidence to pursue my passion for research.",
   },
 ];
