@@ -1,9 +1,6 @@
 import React from "react";
 import "./OurExperience.css";
 import overSeasImg from "../../assets/HomePage/overseasImg.png";
-import flyingArrow from "../../assets/HomePage/flyingArrow.svg";
-import howExperinece from "../../assets/HomePage/How your Experience_-min.png";
-import overseasPattern from "../../assets/HomePage/overseas-pattern.svg";
 
 const OurExperience = () => {
   return (
@@ -15,17 +12,6 @@ const OurExperience = () => {
               className="overSeasImg"
               src={overSeasImg}
               alt="overseas image"
-            />
-            <img className="flyingArrow" src={flyingArrow} alt="flyingArrow" />
-            <img
-              className="howExperinece"
-              src={howExperinece}
-              alt="howExperinece"
-            />
-            <img
-              className="overseasPattern"
-              src={overseasPattern}
-              alt="overseasPattern"
             />
           </div>
           <div className="counter-sec ">

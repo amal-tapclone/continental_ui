@@ -3,6 +3,7 @@
   max-width: 100%;
   height: 50rem;
   position: relative;
+  overflow: hidden;
   /* z-index: 0; */
   background: url(../../assets/HomePage/Frame\ 40.png) center/cover no-repeat;
 }
@@ -13,8 +14,9 @@ nav {
   align-items: center;
   border-radius: 10px;
   width: 88%;
-  backdrop-filter: blur(4.5px);
   z-index: 22;
+  background: url(../../assets/HomePage/destination_bg.jpg) center/cover
+    no-repeat;
 }
 
 nav::after {
@@ -39,8 +41,7 @@ nav::after {
 .sticky_nav {
   position: fixed;
   margin: 0% auto 0;
-  background: url(../../assets/HomePage/destination_bg.jpg) center/cover
-    no-repeat;
+
   top: 0%;
   left: 6%;
   z-index: 22;
@@ -69,6 +70,10 @@ nav .links {
   margin-left: 15%;
   width: 100%;
   display: flex;
+}
+
+.mob-hamburger {
+  display: none;
 }
 
 nav .links .nav_links {
@@ -394,41 +399,169 @@ nav .contactBtn {
   }
 }
 
-/* .blur_circle1 {
-    border-radius: 390.099px;
-    background: #dbe6ed;
-    filter: blur(89.14471435546875px);
-    z-index: -1;
-    top: -6%;
-    left: -6%;
+@media (max-width: 480px) {
+  /* navbar */
+  .mob-hamburger {
+    display: block;
+  }
+  nav {
+    width: 95%;
+    height: 3.8rem;
+    position: relative;
+  }
+  nav .links {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
     position: absolute;
-    width: 390.099px;
-    height: 390.099px;
-  } */
-/* .blur_circle2 {
-    border-radius: 390.099px;
-    background: #dbe6ed;
-    filter: blur(89.14471435546875px);
-    z-index: -1;
-    top: 23%;
+    margin-left: -0.5%;
+    background: rgb(240, 244, 247);
+    gap: 2rem;
+    transition: 0.3s ease-in;
+  }
+
+  nav .links .nav_links {
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+  }
+
+  nav .connect_links {
+    margin: 0 auto;
+    display: flex;
+    gap: 1rem;
+  }
+
+  nav .logo {
+    width: 10rem;
+  }
+  nav .logo img {
+    width: 100%;
+  }
+
+  nav::after {
+    display: none;
+  }
+
+  .nav_active {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav .contactBtn {
+    display: none;
+  }
+
+  /* end navbar */
+  .header_wrap {
+    height: 68rem;
+  }
+
+  .hero_section {
+    height: 55.7rem;
+  }
+
+  .hero_content {
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+
+  .hero_content .abroad_search {
+    gap: 0.23rem;
+    left: 0%;
+    position: relative;
+    z-index: 4;
+  }
+
+  .hero_content .location_search {
+    width: 20.87rem;
+    height: 4.4rem;
+    margin: 0 auto;
+  }
+
+  .location_search div p {
+    font-size: 0.83rem;
+  }
+
+  .location_search .location_part {
+    gap: 0.2rem;
+  }
+
+  .location_search .university_part {
+    gap: 0.2rem;
+  }
+
+  .location_search .location_part::after {
+    right: -35%;
+  }
+
+  .hero_content .circle_text {
+    position: relative;
+  }
+
+  .hero_content .circle_text p {
+    font-size: 1.75rem;
+    margin-top: 8rem;
+    margin-left: 2.3rem;
+  }
+
+  .hero_content .heroCircleText {
+    width: 123%;
+    top: 10%;
+    right: -19%;
+  }
+
+  .hero_content .globe-container {
+    width: 209%;
+    top: 45%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    width: 390.099px;
-    height: 390.099px;
+    height: 18.8rem;
+    transform: translate(-50%, 0);
+    padding: 12.5% 5% 0;
   }
-  .blur_circle3 {
-    border-radius: 390.099px;
-    background: #dbe6ed;
-    filter: blur(89.14471435546875px);
-    z-index: -1;
-    top: 40%;
-    left: 87%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    width: 390.099px;
-    height: 390.099px;
+
+  .hero_content .ladyGlobe {
+    width: 103.5%;
+    bottom: 22%;
   }
+
+  .course_panel {
+    margin-top: 0;
+    width: 23.5rem;
+    left: 50.5%;
+    bottom: 10.8%;
+    height: 6rem;
+  }
+
+  .course_panel .select_item {
+    gap: 0.3rem;
+  }
+
+  .select_item p {
+    font-size: 1rem;
+    margin-right: 1.8rem;
+  }
+
+  .select_item select {
+    font-size: 0.95rem;
+  }
+
+  .course_panel .enroll_btn {
+    position: absolute;
+    /* bottom: -3rem; */
+    bottom: -90%;
+    flex-direction: row;
+    height: 70%;
+    padding: 0 10%;
+    border-radius: 20px;
+    transform: translate(-50%, 0);
+    left: 50%;
+    width: 65%;
+  }
+}
+
+/*
   .blur_circle4 {
     border-radius: 390.099px;
     background: #dbe6ed;

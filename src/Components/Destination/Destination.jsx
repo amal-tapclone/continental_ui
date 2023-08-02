@@ -62,14 +62,14 @@ const Destination = () => {
           Migrate
         </button>
       </div>
-      <div
+      {/* <div
         className="blur_circle1"
         style={{
           top: "-25%",
           left: "-6%",
         }}
-      ></div>
-      <div
+      ></div> */}
+      {/* <div
         className="blur_circle1"
         style={{
           top: "-38%",
@@ -77,7 +77,7 @@ const Destination = () => {
           width: "500.099px",
           height: "500.099px",
         }}
-      ></div>
+      ></div> */}
     </section>
   );
 };

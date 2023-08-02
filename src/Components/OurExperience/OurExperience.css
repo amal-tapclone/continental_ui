@@ -31,27 +31,6 @@
   bottom: 3%;
 }
 
-.exp-content .img-sec .howExperinece {
-  position: absolute;
-  width: 50%;
-  bottom: 8%;
-  right: -14%;
-}
-
-.exp-content .img-sec .overseasPattern {
-  position: absolute;
-  width: 50%;
-  left: 0;
-  top: 8%;
-}
-
-.exp-content .img-sec .flyingArrow {
-  position: absolute;
-  width: 25%;
-  right: -5%;
-  top: -1%;
-}
-
 .exp-content .counter-sec {
   display: flex;
   flex-direction: column;

@@ -60,9 +60,9 @@ const Header = () => {
   return (
     <section className={`header_wrap`}>
       <NavBar />
-      <div className={`hero_section  `}>
-        <div className={`hero_content `}>
-          <div className={`abroad_search`}>
+      <div className={`hero_section  testBorder`}>
+        <div className={`hero_content testBorder`}>
+          <div className={`abroad_search testBorder`}>
             <div className={`abroad_title`}>
               Study Abroad
               <span style={{ marginLeft: "1rem", marginTop: "0.45rem" }}>
@@ -70,7 +70,7 @@ const Header = () => {
               </span>
             </div>
 
-            <div className={`location_search`}>
+            <div className={`location_search `}>
               <div className={`location_part`}>
                 <p>
                   <span>
@@ -102,13 +102,13 @@ const Header = () => {
             </div>
           </div>
 
-          <div className={`circle_text`}>
+          <div className={`circle_text testBorder`}>
             <p>
               “Study & Explore <br /> The World”
             </p>
           </div>
 
-          <div className="heroCircleText ">
+          <div className="heroCircleText testBorder">
             <img src={heroCircle} alt="circle-background" />
           </div>
 
@@ -125,15 +125,15 @@ const Header = () => {
           </div>
         </div>
 
-        <div className={`course_panel `}>
-          <div className={`select_item `}>
+        <div className={`course_panel testBorder`}>
+          <div className={`select_item testBorder`}>
             <p>
               Location{" "}
               <span>
                 <img src={downIcon} style={{ marginBottom: "0.3rem" }} />
               </span>
             </p>
-            <select className={`location_select`}>
+            <select className={`location_select testBorder`}>
               <option value="" disabled selected>
                 Select
               </option>
@@ -141,14 +141,14 @@ const Header = () => {
               <option value="London">London</option>
             </select>
           </div>
-          <div className={`select_item `}>
+          <div className={`select_item testBorder`}>
             <p>
               University{" "}
               <span>
                 <img src={downIcon} style={{ marginBottom: "0.3rem" }} />
               </span>
             </p>
-            <select className={`location_select`}>
+            <select className={`location_select testBorder` }>
               <option value="" disabled selected>
                 Select
               </option>
@@ -156,7 +156,7 @@ const Header = () => {
               <option value="London">London</option>
             </select>
           </div>
-          <div className={`select_item `}>
+          <div className={`select_item testBorder`}>
             <p>
               Courses{" "}
               <span>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import useStickyNav from "../../Hooks/useStickyNav";
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/HomePage/logo-min.png";
@@ -6,16 +6,41 @@ import fb from "../../assets/HomePage/fb-icon.svg";
 import insta from "../../assets/HomePage/Icon awesome-instagram.svg";
 import twitter from "../../assets/HomePage/Icon awesome-twitter.svg";
 import linkedin from "../../assets/HomePage/Icon awesome-linkedin-in.svg";
+import { CgMenu, CgClose } from "react-icons/cg";
 
 const NavBar = () => {
+  const [navOpen, setNavOpen] = useState(false);
   const isSticky = useStickyNav();
+  const [postion, setPosition] = useState("-100vh");
+  const hamIcon = (
+    <CgMenu
+      className="mob-hamburger"
+      size={35}
+      onClick={() => {
+        setNavOpen(!navOpen);
+        setPosition("3.8rem");
+      }}
+    />
+  );
+
+  const closeIcon = (
+    <CgClose
+      className="mob-hamburger"
+      size={35}
+      onClick={() => {
+        setNavOpen(!navOpen);
+        setPosition("-100vh");
+      }}
+    />
+  );
+
   return (
-    <nav className={`${isSticky ? "sticky_nav" : "nav_active"} `}>
+    <nav className={`${isSticky ? "sticky_nav" : "nav_active "} `}>
       <div className={`logo`}>
         <img src={logo} alt="logo" draggable={false} />
       </div>
 
-      <div className={`links`}>
+      <div className={`links `} style={{ top: postion }}>
         <ul className={`nav_links `}>
           <li className={`list_item`}>
             <NavLink
@@ -76,6 +101,7 @@ const NavBar = () => {
 
         <button className={`contactBtn `}>Contact</button>
       </div>
+      {navOpen ? closeIcon : hamIcon}
     </nav>
   );
 };
