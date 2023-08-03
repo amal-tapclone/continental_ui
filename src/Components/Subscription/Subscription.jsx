@@ -7,8 +7,8 @@ import subsMsg from "../../assets/HomePage/subsMsg.svg";
 
 const Subscription = () => {
   return (
-    <section className="subscription">
-      <div className="subs-wrap ">
+    <section className="subscription testBorder">
+      <div className="subs-wrap testBorder">
         <p className="title">Reach out</p>
         <h1>Subscribe for latest updates</h1>
         <p className="description">
@@ -17,7 +17,12 @@ const Subscription = () => {
         </p>
         <form className="subscribe-form ">
           <div className="input-container">
-            <img src={subsMsg} draggable={false} className="subMsgIcon" alt="" />
+            <img
+              src={subsMsg}
+              draggable={false}
+              className="subMsgIcon"
+              alt=""
+            />
             <input type="email" name="email" placeholder="Your email" />
           </div>
           <button type="submit">Subscribe</button>
