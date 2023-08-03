@@ -4,9 +4,9 @@ import gradGirl from "../../assets/HomePage/GradGirl Image-min.png";
 
 const Overseas = () => {
   return (
-    <section className="overseas-sec ">
-      <div className="overseas-wrap ">
-        <div className="overseas-content ">
+    <section className="overseas-sec testBorder">
+      <div className="overseas-wrap testBorder">
+        <div className="overseas-content testBorder">
           <div className="text-sec ">
             <p className="title">OUR EXPERIENCE</p>
             <h1 className="head">
@@ -14,7 +14,10 @@ const Overseas = () => {
               Welcome to <br />
               Continental <span>O</span>verseas
             </h1>
-            <p className="desc">
+            <div className="mobile-image-sec ">
+              <img className="" src={gradGirl} alt="graduated girl" />
+            </div>
+            <p className="desc testBorder">
               Step into a world of boundless opportunities, Whether you dream of
               studying at renowned universities, embarking on enriching cultural
               experiences, or charting a course towards a successful career, we

@@ -128,3 +128,61 @@
     padding: 0.5rem 1rem;
   }
 }
+
+@media (max-width: 480px) {
+  .destination-sec {
+    overflow: hidden;
+    padding-top: 2rem;
+    height: 25rem;
+  }
+
+  .destination-sec .desti-content {
+    margin-left: 0;
+  }
+  .destination-sec .slider-content {
+    margin-left: 2%;
+  }
+
+  .desti-content .title {
+    letter-spacing: 5px;
+    text-align: center;
+    line-height: 10px;
+  }
+
+  .desti-content .heading {
+    font-size: 1.7rem;
+    text-align: center;
+    line-height: 3.3rem;
+  }
+
+  .destination-sec .slider-content {
+    width: 140%;
+    margin-top: 0rem;
+    height: 16rem;
+  }
+
+  .slider-content .country-pic {
+    width: 8.9rem !important;
+    height: 14.8rem;
+  }
+
+  .country-pic .country-name {
+    font-size: 0.77rem;
+    height: 2rem;
+  }
+
+  .slider-content .dest-slider-controls {
+    position: absolute;
+    width: 22%;
+    transform: translate(-50%, 50%);
+    top: 108.8%;
+    right: 20%;
+  }
+
+  .slider-content .migrate-btn {
+    top: 94%;
+    right: 64%;
+    transform: translate(-50%, 50%);
+    width: 23%;
+  }
+}

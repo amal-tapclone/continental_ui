@@ -23,6 +23,9 @@
 .overseas-content .image-sec {
   position: relative;
 }
+.overseas-content .text-sec .mobile-image-sec {
+  display: none;
+}
 
 .overseas-content .image-sec img {
   position: absolute;
@@ -84,5 +87,52 @@
   .text-sec .desc {
     font-size: 0.97rem;
     line-height: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .overseas-sec {
+    height: 63.25rem;
+  }
+
+  .overseas-wrap .overseas-content {
+    grid-template-columns: 1fr;
+  }
+
+  .overseas-sec .overseas-wrap {
+    width: 99%;
+    height: 56.75rem;
+  }
+
+  .overseas-content .image-sec {
+    display: none;
+  }
+
+  .overseas-content .text-sec .mobile-image-sec {
+    display: block;
+    width: 100%;
+  }
+  .overseas-content .text-sec .mobile-image-sec img {
+    width: 100%;
+    margin-left: -10%;
+  }
+  .overseas-content .text-sec {
+    text-align: center;
+    gap: 1.5%;
+    align-items: center;
+  }
+
+  .text-sec .title {
+    margin-left: 5%;
+    line-height: 1rem;
+  }
+
+  .text-sec .head {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+
+  .text-sec .desc {
+    max-width: 100%;
   }
 }

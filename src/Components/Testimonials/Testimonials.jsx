@@ -11,9 +11,9 @@ import "./Testimonials.css";
 
 const Testimonials = () => {
   return (
-    <section className="testimonials-sec ">
-      <div className="testimonials-wrap ">
-        <div className="test-head-part ">
+    <section className="testimonials-sec testBorder">
+      <div className="testimonials-wrap testBorder">
+        <div className="test-head-part testBorder">
           <p className="test-title">what they Say </p>
           <h1 className="test-head">Let’s hear from our students</h1>
           <p className="test-desc">
@@ -38,9 +38,23 @@ const Testimonials = () => {
               clickable: true,
             }}
             loop={true}
+            breakpoints={{
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 35,
+              },
+              768: {
+                slidesPerView: 3,
+                spaceBetween: 35,
+              },
+              480: {
+                slidesPerView: 2,
+                spaceBetween: 35,
+              },
+            }}
             speed={2000}
-            spaceBetween={35}
-            slidesPerView={3}
+            spaceBetween={20}
+            slidesPerView={1}
             centeredSlides={false}
             className="testi-slid"
           >

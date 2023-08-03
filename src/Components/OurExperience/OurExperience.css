@@ -104,3 +104,86 @@
   opacity: 0.10000000149011612;
   right: -55%;
 }
+
+.counter-sec .head-mob {
+  display: none;
+}
+.counter-sec .mob-exp-img-sec {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .exp-content .img-sec {
+    display: none;
+  }
+  .our-experience {
+    height: 54.625rem;
+  }
+
+  .our-experience .exp-wrap {
+    width: 93%;
+    height: 48.625rem;
+  }
+
+  .exp-wrap .exp-content {
+    grid-template-columns: 1fr;
+  }
+
+  .exp-content .counter-sec {
+    margin-left: 0%;
+    align-items: center;
+    gap: 1.5%;
+  }
+
+  .counter-sec .desc {
+    width: 100%;
+    align-self: flex-start;
+  }
+
+  .counter-sec .head {
+    display: none;
+  }
+  .counter-sec .head-mob {
+    display: block;
+    color: #1a093f;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5rem;
+  }
+  .counter-sec .mob-exp-img-sec {
+    display: block;
+    width: 105%;
+    margin-left: 5%;
+  }
+  .counter-sec .mob-exp-img-sec img {
+    width: 100%;
+  }
+  .counter-sec .head-mob {
+    font-size: 1.15rem;
+  }
+  .counter-sec .title {
+    font-size: 0.8rem;
+    align-self: self-start;
+  }
+
+  .counter-sec .counter-part h1 {
+    font-size: 2rem;
+  }
+
+  .counter-sec .counter-part p {
+    font-size: 0.8rem;
+  }
+  .counter-part .countries::before {
+    top: 2%;
+    right: -37%;
+    height: 3rem;
+  }
+
+  .counter-part .universities::before {
+    top: 2%;
+    right: -27%;
+    height: 3rem;
+  }
+
+  
+}

@@ -12,12 +12,12 @@ import countries from "../../Constants/Constants";
 const Destination = () => {
   const navigate = useNavigate();
   return (
-    <section className="destination-sec">
-      <div className="desti-content ">
+    <section className="destination-sec testBorder">
+      <div className="desti-content testBorder">
         <p className="title">Top Destination</p>
         <h1 className="heading">Your Dream Destination</h1>
       </div>
-      <div className="slider-content">
+      <div className="slider-content testBorder">
         <Swiper
           autoplay={{
             delay: 2500,
@@ -30,14 +30,14 @@ const Destination = () => {
           }}
           loop={true}
           modules={[Autoplay, Navigation]}
-          spaceBetween={45}
+          spaceBetween={35}
           slidesPerView={3.65}
           centeredSlides={false}
           speed={2000}
-          className="destSwiper"
+          className="destSwiper testBorder"
         >
           {countries.map(({ countryimg, name }) => (
-            <SwiperSlide className="country-pic">
+            <SwiperSlide className="country-pic testBorder">
               <img draggable={false} src={countryimg} />
               <div className="country-name ">
                 <h3>{name}</h3>

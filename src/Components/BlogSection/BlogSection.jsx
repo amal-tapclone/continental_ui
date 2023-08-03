@@ -7,15 +7,15 @@ import { useNavigate } from "react-router-dom";
 const BlogSection = () => {
   const navigate = useNavigate();
   return (
-    <section className="blog-section">
-      <div className="articles-wrap ">
+    <section className="blog-section testBorder">
+      <div className="articles-wrap testBorder">
         <p className="title">New Articles</p>
         <h1>Featured Blog Posts</h1>
         <p className="description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut.
         </p>
-        <div className="articles ">
+        <div className="articles testBorder">
           {blogsArr.map(({ imgSrc, date, heading, desc }) => (
             <div className="blog ">
               <div className="blog-item">

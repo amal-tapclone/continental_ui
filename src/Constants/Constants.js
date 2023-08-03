@@ -105,32 +105,32 @@ export const whyChooseArr = [
   {
     img: Message_pers,
     head: "Overseas Assistance",
-    desc: "We are your dedicated overseas assistance partner, providing comprehensive pre-departure guidance, travel arrangements.",
+    desc: "We are your dedicated overseas assistance partner, providing  travel arrangements.",
   },
   {
     img: location_pers,
     head: "Scholarships and Grants",
-    desc: "We empower ambitious students with financial support, turning their dreams of studying abroad into a reality.",
+    desc: "We empower ambitious students, turning their dreams of studying abroad into a reality.",
   },
   {
     img: calender_pers,
     head: "Share your travel preference",
-    desc: "We foster a collaborative community by encouraging students to share their travel expenses.",
+    desc: "We foster a community by encouraging students to share travel expenses.",
   },
   {
     img: Message_pers,
     head: "Overseas Assistance",
-    desc: "We are your dedicated overseas assistance partner, providing comprehensive pre-departure guidance, travel arrangements.",
+    desc: "We are your dedicated overseas assistance partner, providing travel arrangements.",
   },
   {
     img: location_pers,
     head: "Scholarships and Grants",
-    desc: "We empower ambitious students with financial support, turning their dreams of studying abroad into a reality.",
+    desc: "We empower ambitious students, turning their dreams of studying abroad into a reality.",
   },
   {
     img: calender_pers,
     head: "Share your travel preference",
-    desc: "We foster a collaborative community by encouraging students to share their travel expenses.",
+    desc: "We foster a community by encouraging students to share their travel expenses.",
   },
 ];
 

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import useStickyNav from "../../Hooks/useStickyNav";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import logo from "../../assets/HomePage/logo-min.png";
 import fb from "../../assets/HomePage/fb-icon.svg";
 import insta from "../../assets/HomePage/Icon awesome-instagram.svg";
@@ -9,6 +9,7 @@ import linkedin from "../../assets/HomePage/Icon awesome-linkedin-in.svg";
 import { CgMenu, CgClose } from "react-icons/cg";
 
 const NavBar = () => {
+  const navigate = useNavigate();
   const [navOpen, setNavOpen] = useState(false);
   const isSticky = useStickyNav();
   const [postion, setPosition] = useState("-100vh");
@@ -36,7 +37,7 @@ const NavBar = () => {
 
   return (
     <nav className={`${isSticky ? "sticky_nav" : "nav_active "} `}>
-      <div className={`logo`}>
+      <div className={`logo`} onClick={() => navigate("/")}>
         <img src={logo} alt="logo" draggable={false} />
       </div>
 

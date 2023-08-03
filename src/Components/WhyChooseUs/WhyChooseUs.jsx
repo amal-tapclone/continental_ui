@@ -4,17 +4,14 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "./WhyChooseUs.css";
-import Message_pers from "../../assets/HomePage/Message_perspective_matte.png";
-import location_pers from "../../assets/HomePage/Location_perspective_matte.png";
-import calender_pers from "../../assets/HomePage/Calendar_perspective_matte.png";
 import leftArrow from "../../assets/HomePage/dest_left_arrow.svg";
 import rightArrow from "../../assets/HomePage/dest_right_arrow.svg";
 import { whyChooseArr } from "../../Constants/Constants";
 
 const WhyChooseUs = () => {
   return (
-    <section className="WhyChooseUs">
-      <div className="WhyChooseUs-wrap ">
+    <section className="WhyChooseUs testBorder">
+      <div className="WhyChooseUs-wrap testBorder ">
         <div className="head-part ">
           <p className="title">Steps to Future </p>
           <h1 className="head">Why Choose Us</h1>
@@ -32,8 +29,22 @@ const WhyChooseUs = () => {
               clickable: true,
             }}
             loop={true}
-            spaceBetween={35}
-            slidesPerView={3}
+            breakpoints={{
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 35,
+              },
+              768: {
+                slidesPerView: 3,
+                spaceBetween: 35,
+              },
+              480: {
+                slidesPerView: 2,
+                spaceBetween: 35,
+              },
+            }}
+            spaceBetween={15}
+            slidesPerView={2}
             centeredSlides={false}
             className="choose-us-slid "
           >
@@ -46,7 +57,7 @@ const WhyChooseUs = () => {
             ))}
           </Swiper>
 
-          <div className="choose-slid-ctrls ">
+          <div className="choose-slid-ctrls testBorder">
             <img
               className="choose-button-prev1 "
               src={leftArrow}
