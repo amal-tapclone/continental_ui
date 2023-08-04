@@ -4,6 +4,7 @@
   height: 55rem;
   position: relative;
   background: url(../../assets/HomePage/Frame\ 40.png) center/cover no-repeat;
+  overflow: hidden;
 }
 
 .about_hero_section {
@@ -113,4 +114,7 @@
   height: 3.6rem;
   border: none;
   background: transparent;
+}
+
+@media (max-width: 480px) {
 }

@@ -8,8 +8,8 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="">
-      <div className="footer-container ">
+    <footer className="testBorder">
+      <div className="footer-container testBorder">
         <div className="logo ">
           <img className="contint_logo" src={logo} alt="logo" />
           <p className="info_link">info@continentaloverseaseducation.com</p>

@@ -175,3 +175,33 @@ footer .credits {
     margin-right: 34%;
   }
 }
+
+@media (max-width: 480px) {
+  .footer-container .company {
+    display: none;
+  }
+  .footer-container .resources {
+    display: none;
+  }
+  .footer-container .support {
+    display: none;
+  }
+  footer {
+    height: 25.64rem;
+  }
+
+  footer .footer-container {
+    height: 19rem;
+  }
+
+  .logo .info_link,
+  .phone {
+    font-size: 0.97rem;
+  }
+  footer .credits {
+    bottom: 0.25%;
+  }
+  .credits p {
+    font-size: 0.87rem;
+  }
+}

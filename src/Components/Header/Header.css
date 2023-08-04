@@ -35,7 +35,7 @@ nav::after {
   position: relative;
   /* margin: 3.5% auto 0; */
   margin: 1.9% auto 0;
-  transition: 0.5s linear;
+  transition: 1.5s linear;
 }
 
 .sticky_nav {
