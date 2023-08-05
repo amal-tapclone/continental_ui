@@ -4,12 +4,12 @@ import "./OurVision.css";
 
 const OurVision = () => {
   return (
-    <section className="vision ">
-      <div className="vision-wrap ">
+    <section className="vision testBorder">
+      <div className="vision-wrap testBorder">
         <div className="image-sec ">
           <img src={girlGlobe} alt="" />
         </div>
-        <div className="text-sec ">
+        <div className="text-sec testBorder">
           <div>
             <button className="orange-btn">Our Vision</button>
             <p>

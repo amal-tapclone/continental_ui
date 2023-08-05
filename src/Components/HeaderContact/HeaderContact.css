@@ -121,3 +121,47 @@
     left: 40.5%;
   }
 }
+
+@media (max-width: 480px) {
+  .contact_head_wrap {
+    height: 58rem;
+  }
+
+  .contact_hero_section .contactMainImage {
+    left: 25.5%;
+    top: 80%;
+    width: 40rem;
+  }
+  .contact_hero_section .contactMainImage .contact-main {
+    width: 100%;
+  }
+
+  .contact_hero_section .bgCircle {
+    width: 22rem;
+    bottom: -9%;
+    right: -2%;
+  }
+  .contact_hero_section .bgCircle .bg-circle {
+    width: 100%;
+  }
+
+  .contact_hero_section .contact_search {
+    top: 18%;
+    width: 97%;
+    left: 50%;
+  }
+  .contact_hero_section .contact_search_curv {
+    height: 4.3rem;
+    padding: 0 1rem 0 2rem;
+  }
+
+  .contact_search_curv h3 {
+    font-size: 2rem;
+  }
+
+  .contactMainImage .course_panel {
+    transform: translate(-50%, -50%);
+    left: 63.3%;
+    bottom: -21%;
+  }
+}

@@ -35,3 +35,23 @@
   align-items: center;
   margin-bottom: 2rem;
 }
+
+@media (max-width: 480px) {
+  .mission {
+    height: 60rem;
+  }
+  .mission .mission-wrap {
+    width: 92%;
+    height: 52rem;
+  }
+
+  .mission .mission-wrap {
+    flex-direction: column-reverse;
+  }
+  .mission-wrap .image-sec img {
+    position: relative;
+  }
+  .mission-wrap .text-sec p {
+    text-align: center;
+  }
+}

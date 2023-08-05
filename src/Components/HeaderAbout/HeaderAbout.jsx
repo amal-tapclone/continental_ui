@@ -14,7 +14,7 @@ import downIcon from "../../assets/HomePage/Down Icon.svg";
 
 const HeaderAbout = () => {
   return (
-    <section className="about_head_wrap ">
+    <section className="about_head_wrap testBorder">
       <NavBar />
       <div className=" hero_section about_hero_section">
         <div className="about_search ">
@@ -33,7 +33,7 @@ const HeaderAbout = () => {
         </div>
 
         <div className="bgCircle">
-          <img src={bgCircle} alt="bg-circle" />
+          <img src={bgCircle} className="bg-circle" alt="bg-circle" />
           <img src={launchRocket} className="launchRocket" alt="bg-circle" />
           <img
             src={launchRocket}
@@ -47,7 +47,7 @@ const HeaderAbout = () => {
         </div>
 
         <div className="aboutMainImage ">
-          <img src={aboutMainBg} alt="bg-circle" />
+          <img src={aboutMainBg} className="about-main" alt="bg-circle" />
           <img src={cloud} className="cloud " alt="bg-circle" />
           <img src={cloud} className="cloud " alt="bg-circle" />
 

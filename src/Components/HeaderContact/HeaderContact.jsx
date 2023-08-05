@@ -33,7 +33,7 @@ const HeaderContact = () => {
         </div>
 
         <div className="bgCircle">
-          <img src={bgCircle} alt="bg-circle" />
+          <img src={bgCircle} className="bg-circle" alt="bg-circle" />
           <img src={launchRocket} className="launchRocket" alt="bg-circle" />
           <img
             src={launchRocket}
@@ -47,7 +47,7 @@ const HeaderContact = () => {
         </div>
 
         <div className="contactMainImage    contact">
-          <img src={contactMainBg} className="" alt="bg-circle" />
+          <img src={contactMainBg} className="contact-main" alt="bg-circle" />
           <img src={cloud} className="cloud migrage-cloud" alt="bg-circle" />
           <img src={cloud} className="cloud migrage-cloud" alt="bg-circle" />
 

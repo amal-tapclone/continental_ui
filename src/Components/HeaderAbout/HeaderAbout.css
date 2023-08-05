@@ -1,6 +1,6 @@
 .about_head_wrap {
   padding-top: 1px;
-  max-width: 100%;
+  width: 100%;
   height: 55rem;
   position: relative;
   background: url(../../assets/HomePage/Frame\ 40.png) center/cover no-repeat;
@@ -117,4 +117,45 @@
 }
 
 @media (max-width: 480px) {
+  .about_head_wrap {
+    height: 58rem;
+  }
+
+  .about_hero_section .aboutMainImage {
+    left: 25.5%;
+    top: 80%;
+    width: 40rem;
+  }
+
+  .about_hero_section .aboutMainImage .about-main {
+    width: 100%;
+  }
+
+  .about_hero_section .bgCircle {
+    width: 22rem;
+    bottom: -9%;
+    right: -12%;
+  }
+  .about_hero_section .bgCircle .bg-circle {
+    width: 100%;
+  }
+
+  .about_hero_section .about_search {
+    top: 18%;
+    width: 97%;
+    left: 50%;
+  }
+  .about_hero_section .about_search_curv {
+    height: 4.3rem;
+    padding: 0 1rem 0 2rem;
+  }
+
+  .about_search_curv h3 {
+    font-size: 2rem;
+  }
+
+  .aboutMainImage .course_panel {
+    transform: translate(-50%, -50%);
+    left: 63%;
+  }
 }

@@ -33,7 +33,7 @@ const HeaderMigrate = () => {
         </div>
 
         <div className="bgCircle">
-          <img src={bgCircle} alt="bg-circle" />
+          <img src={bgCircle} className="bg-circle" alt="bg-circle" />
           <img src={launchRocket} className="launchRocket" alt="bg-circle" />
           <img
             src={launchRocket}
@@ -47,7 +47,7 @@ const HeaderMigrate = () => {
         </div>
 
         <div className="migrateMainImage    migrate">
-          <img src={migrateMainBg} alt="bg-circle" />
+          <img src={migrateMainBg} className="migrate-main" alt="bg-circle" />
           <img src={cloud} className="cloud migrage-cloud" alt="bg-circle" />
           <img src={cloud} className="cloud migrage-cloud" alt="bg-circle" />
 

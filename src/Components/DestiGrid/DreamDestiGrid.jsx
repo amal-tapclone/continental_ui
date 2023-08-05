@@ -6,8 +6,8 @@ import { useNavigate } from "react-router-dom";
 const DreamDestiGrid = () => {
   const navigate = useNavigate();
   return (
-    <section className="DreamDestiGrid ">
-      <div className="dream-dest-wrap ">
+    <section className="DreamDestiGrid testBorder">
+      <div className="dream-dest-wrap testBorder">
         <h4>Top Destination</h4>
         <h1>Your Dream Destination</h1>
         <div className="desti-grid ">

@@ -125,3 +125,45 @@
     left: 40.5%;
   }
 }
+
+@media (max-width: 480px) {
+  .migrate_head_wrap {
+    height: 55rem;
+  }
+  .migrate_hero_section .bgCircle {
+    width: 22rem;
+    bottom: -9%;
+    right: -2%;
+  }
+  .migrate_hero_section .bgCircle .bg-circle {
+    width: 100%;
+  }
+  .migrate_hero_section .migrateMainImage {
+    left: 33.5%;
+    top: 68%;
+    width: 39rem;
+  }
+  .migrate_hero_section .migrateMainImage .migrate-main {
+    width: 100%;
+  }
+
+  .migrate_hero_section .migrate_search {
+    top: 18%;
+    width: 97%;
+    left: 50%;
+  }
+
+  .migrate_hero_section .migrate_search_curv {
+    height: 4.3rem;
+    padding: 0 1rem 0 2rem;
+  }
+  .migrate_search_curv h3 {
+    font-size: 2rem;
+  }
+
+  .migrateMainImage .course_panel {
+    transform: translate(-50%, -50%);
+    left: 59%;
+    bottom: -8%;
+  }
+}

@@ -75,10 +75,10 @@
   margin-left: 2.8rem;
 }
 
-.contact_cards .text-details{
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+.contact_cards .text-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .contact_cards img {
@@ -100,4 +100,64 @@
 .contact-image-btns .contact-Img img {
   max-width: 100%;
   height: auto;
+}
+
+@media (max-width: 480px) {
+  .ContactDetails {
+    height: 53rem;
+  }
+
+  .ContactDetails .contacts-wrap {
+    width: 95%;
+  }
+
+  .contacts-text-sec h3 {
+    font-size: 0.8rem;
+  }
+  .contacts-wrap .contacts-text-sec {
+    gap: 1rem;
+  }
+
+  .contacts-text-sec p {
+    max-width: 90%;
+    line-height: 1.7rem;
+  }
+
+  .contacts-text-sec h1 {
+    font-size: 2rem;
+    line-height: 1.1rem;
+  }
+
+  .contacts-wrap .contact-image-btns {
+    flex-direction: column;
+  }
+  .contact-image-btns .contact-details {
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .contact-image-btns .contact-Img {
+    margin-top: 1rem;
+  }
+  .contact-details .contact_cards {
+    margin-left: 0;
+    width: 100%;
+    padding: 0.7rem 0.5rem;
+    gap: 0.7rem;
+  }
+
+  .contact_cards .text-details {
+    gap: 0.2rem;
+  }
+  .contact_cards img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .contact_cards .text-details h3 {
+    font-size: 1rem;
+  }
+
+  .contact_cards .text-details p {
+    font-size: 0.84rem;
+  }
 }

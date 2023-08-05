@@ -28,8 +28,8 @@ const HeaderCountry = (props) => {
           </div>
         </div>
 
-        <div className="countryMainImage    country">
-          <img src={countryMainBg} className=".countryImg" alt="bg-circle" />
+        <div className="countryMainImage  country">
+          <img src={countryMainBg} className="country-main" alt="bg-circle" />
 
           <div className={`course_panel `}>
             <div className={`select_item `}>

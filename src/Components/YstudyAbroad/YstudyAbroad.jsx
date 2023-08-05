@@ -7,10 +7,10 @@ import discount from "../../assets/HomePage/Discount.png";
 const YstudyAbroad = (props) => {
   const { name } = props;
   return (
-    <section className="YstudyAbroad  ">
-      <div className="studyAbroadWrap ">
+    <section className="YstudyAbroad  testBorder">
+      <div className="studyAbroadWrap testBorder">
         <div className="abroad-text-sec ">
-          <p>3 steps or the perfect education</p>
+          <p>3 steps for the perfect education</p>
           <h1>Why Study {name ? name : "Abroad"} </h1>
           <h4>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

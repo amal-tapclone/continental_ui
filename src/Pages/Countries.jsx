@@ -11,7 +11,6 @@ import Footer from "../Components/Footer/Footer";
 import AccordionGuidlines from "../Components/AccordionGuidlines/AccordionGuidlines";
 import useScrollToTop from "../Hooks/useScrollToTop";
 
-
 const Countries = () => {
   useScrollToTop();
 

@@ -35,7 +35,7 @@ nav::after {
   position: relative;
   /* margin: 3.5% auto 0; */
   margin: 1.9% auto 0;
-  transition: 1.5s linear;
+  transition: 0.5s linear;
 }
 
 .sticky_nav {
@@ -400,6 +400,10 @@ nav .contactBtn {
 }
 
 @media (max-width: 480px) {
+  .nav_active {
+    transition: 1.5s linear;
+  }
+
   /* navbar */
   .mob-hamburger {
     display: block;

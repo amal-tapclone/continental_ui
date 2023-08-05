@@ -22,7 +22,13 @@ const GetInTouchForm = () => {
             <form action="">
               <div className="form-row  ">
                 <div className="input-group">
-                  <input type="text" name="" className="name-inp" required />
+                  <input
+                    type="text"
+                    name=""
+                    placeholder="Full Name"
+                    className="name-inp"
+                    required
+                  />
                   <label htmlFor="name" className="input-group__label">
                     Full Name
                   </label>
@@ -30,7 +36,13 @@ const GetInTouchForm = () => {
               </div>
               <div className="form-row name-email-row  ">
                 <div className="input-group">
-                  <input type="email" name="" className="email-inp" required />
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    name=""
+                    className="email-inp"
+                    required
+                  />
                   <label htmlFor="name" className="input-group__label">
                     Email
                   </label>
@@ -39,6 +51,7 @@ const GetInTouchForm = () => {
                   <input
                     type="number"
                     name=""
+                    placeholder="Phone No"
                     className="number-inp"
                     required
                   />
@@ -49,7 +62,9 @@ const GetInTouchForm = () => {
               </div>
               <div className="form-row ">
                 <div className="input-group">
-                  <textarea className=".textArea" />
+                  <textarea
+                  placeholder="Type Message"
+                  className=".textArea" />
                   <label htmlFor="phone" className="input-group__labelMessage">
                     Type Message{" "}
                   </label>

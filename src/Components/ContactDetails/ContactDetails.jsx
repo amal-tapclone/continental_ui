@@ -7,8 +7,8 @@ import "./ContactDetails.css";
 
 const ContactDetails = () => {
   return (
-    <section className="ContactDetails ">
-      <div className="contacts-wrap ">
+    <section className="ContactDetails testBorder">
+      <div className="contacts-wrap testBorder">
         <div className="contacts-text-sec">
           <h3>Details</h3>
           <h1>Contact Details</h1>

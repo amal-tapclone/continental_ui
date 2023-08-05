@@ -4,8 +4,8 @@ import "./OurMission.css";
 
 const OurMission = () => {
   return (
-    <section className="mission ">
-      <div className="mission-wrap ">
+    <section className="mission testBorder">
+      <div className="mission-wrap testBorder">
         <div className="text-sec ">
           <div>
             <button className="orange-btn">Our Mission</button>

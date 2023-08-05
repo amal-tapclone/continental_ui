@@ -99,3 +99,33 @@
     font-size: 1.5rem;
   }
 }
+
+@media (max-width: 480px) {
+  .DreamDestiGrid .dream-dest-wrap {
+    width: 95%;
+  }
+  .dream-dest-wrap h4 {
+    font-size: 0.8rem;
+    line-height: 0.2rem;
+  }
+  .dream-dest-wrap h1 {
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+  }
+
+  .dream-dest-wrap .desti-grid {
+    width: 97%;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 5%;
+    row-gap: 3.5%;
+  }
+
+  .destImages .country-name {
+    height: 2rem;
+    font-size: 0.8rem;
+  }
+
+  .DreamDestiGrid {
+    height: 102rem;
+  }
+}

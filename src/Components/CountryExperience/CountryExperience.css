@@ -58,3 +58,23 @@
   line-height: 1.8rem;
   max-width: 81%;
 }
+
+@media (max-width: 480px) {
+  .countryExp {
+    height: 60rem;
+  }
+
+  .countryExp .country-expWrap {
+    width: 95%;
+    height: 93%;
+    flex-direction: column;
+  }
+
+  .country-image img {
+    position: relative;
+  }
+
+  .country-expWrap .country-text-sec {
+    align-items: center;
+  }
+}

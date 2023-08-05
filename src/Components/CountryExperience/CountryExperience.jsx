@@ -6,8 +6,8 @@ const CountryExperience = (props) => {
   const { name } = props;
 
   return (
-    <section className="countryExp ">
-      <div className="country-expWrap ">
+    <section className="countryExp testBorder">
+      <div className="country-expWrap testBorder">
         <div className="country-image ">
           <img src={countryExpImage} alt="" />
         </div>

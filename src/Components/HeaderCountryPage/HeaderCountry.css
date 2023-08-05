@@ -75,3 +75,39 @@
     left: 30.5%;
   }
 }
+
+@media (max-width: 480px) {
+  .country_head_wrap {
+    height: 58rem;
+  }
+
+  .country_hero_section .countryMainImage {
+    left: 35.5%;
+    top: 78%;
+    width: 63rem;
+  }
+
+  .country_hero_section .countryMainImage .country-main {
+    width: 100%;
+  }
+
+  .country_hero_section .country_search {
+    top: 18%;
+    width: 97%;
+    left: 50%;
+  }
+
+  .country_hero_section .country_search_curv {
+    height: 4.3rem;
+    padding: 0 1rem 0 2rem;
+  }
+
+  .country_search_curv h3 {
+    font-size: 2rem;
+  }
+  .countryMainImage .course_panel {
+    transform: translate(-50%, -50%);
+    left: 55%;
+    bottom: -24%;
+  }
+}

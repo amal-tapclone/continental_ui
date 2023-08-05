@@ -138,13 +138,16 @@ form .name-email-row {
   top: 15%;
   left: 0;
   translate: 10px 10px;
+  -webkit-translate: 10px 10px;
   transition: all 500ms;
+  -webkit-transition: all 500ms;
   pointer-events: none;
   font-size: 1rem;
 }
 
 .input-group .input-group__labelMessage {
   translate: 10px 10px;
+  -webkit-translate: 10px 10px;
   position: absolute;
   color: #8d8d8d;
   position: absolute;
@@ -159,14 +162,20 @@ form .name-email-row {
 .input-group input:valid + .input-group__label {
   /* padding-inline: 5px; */
   translate: 0px -28px;
+  -webkit-translate: 0px -28px;
   scale: 0.8;
 }
 
 .input-group textarea:focus + .input-group__labelMessage {
   translate: 0px -21px;
+  -webkit-translate: 0px -21px;
   scale: 0.8;
 }
 
+.input-group textarea::placeholder,
+.input-group input::placeholder {
+  color: transparent;
+}
 .getIn-btn {
   border-radius: 24.06px;
   background: #fb8f2a;
@@ -186,4 +195,68 @@ input[type="number"]::-webkit-outer-spin-button {
   -moz-appearance: none;
   appearance: none;
   margin: 0;
+}
+
+@media (max-width: 480px) {
+  .GetInTouchForm {
+    padding-top: 1rem;
+    height: 69rem;
+  }
+
+  .GetInTouchForm .GetInTouch-wrap {
+    width: 98%;
+  }
+
+  .GetInTouch-wrap .getIn-text-sec h4 {
+    font-size: 0.8rem;
+  }
+  .GetInTouch-wrap .getIn-text-sec h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .GetInTouch-wrap .getIn-text-sec p {
+    max-width: 90%;
+  }
+  .GetInTouch-wrap .map-form {
+    margin-top: 1rem;
+    gap: 1rem;
+    flex-direction: column;
+  }
+  .map-form .map {
+    padding-right: 2%;
+  }
+  .map-form .form form {
+    padding: 1rem;
+    width: 98%;
+    margin-left: 1%;
+    align-items: center;
+  }
+  .name-email-row .input-group {
+    width: 100%;
+  }
+  form .name-email-row {
+    flex-direction: column;
+    gap: 1.95rem;
+  }
+
+  .getIn-btn {
+    width: 40%;
+  }
+
+  .input-group input + .input-group__label {
+    display: none;
+  }
+  .input-group input + .input-group__label {
+    display: none;
+  }
+  .input-group textarea + .input-group__labelMessage {
+    display: none;
+  }
+
+  .input-group textarea::placeholder,
+  .input-group input::placeholder {
+    color: #8d8d8d;
+    font-family: Montserrat;
+    font-size: 1rem;
+  }
 }

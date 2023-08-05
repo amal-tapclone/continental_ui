@@ -99,3 +99,60 @@
   right: 0;
   opacity: 0.1;
 }
+
+@media (max-width: 480px) {
+  .YstudyAbroad {
+    height: 74rem;
+  }
+
+  .YstudyAbroad .studyAbroadWrap {
+    gap: 0%;
+    height: 73rem;
+  }
+
+  .abroad-text-sec p {
+    font-size: 0.8rem;
+  }
+
+  .abroad-text-sec h1 {
+    font-size: 2rem;
+  }
+  .abroad-text-sec h4 {
+    max-width: 80%;
+  }
+
+  .studyAbroadWrap .grid-sec {
+    width: 95%;
+  }
+
+  .grid-sec .abroad-row {
+    flex-direction: column;
+    margin: 1.5rem 0;
+    gap: 1.5rem;
+  }
+
+  .abroad-row .abroad-column {
+    gap: 8%;
+  }
+
+  .abroad-row .abroad-column img {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .abroad-row .abroad-column h4 {
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+  .abroad-row .abroad-column p {
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    margin-top: 0.4rem;
+    width: 95%;
+  }
+
+  .abroad-row .abroad-columnBord::after,
+  .abroad-columnBord2::after {
+    display: none;
+  }
+}
