@@ -13,8 +13,8 @@ import "react-accessible-accordion/dist/fancy-example.css";
 
 const AccordionGuidlines = () => {
   return (
-    <section className="AccordionGuidlines  ">
-      <div className="accord-guid-wrap ">
+    <section className="AccordionGuidlines  testBorder">
+      <div className="accord-guid-wrap testBorder">
         <div className="accordion-g">
           <h1>OUR SERVICE PROCESS GUIDELINES</h1>
           <Accordion preExpanded={[0]}>

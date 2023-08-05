@@ -61,7 +61,7 @@
 
 @media (max-width: 480px) {
   .countryExp {
-    height: 60rem;
+    height: 50rem;
   }
 
   .countryExp .country-expWrap {
@@ -76,5 +76,31 @@
 
   .country-expWrap .country-text-sec {
     align-items: center;
+    padding-left: 0;
+    margin-top: 0rem;
+    padding-top: 0%;
+  }
+
+  .country-text-sec h3 {
+    font-size: 0.8rem;
+    line-height: 0;
+  }
+
+  .country-text-sec h1 {
+    display: none;
+  }
+  .country-text-sec h6 {
+    font-size: 1.5rem;
+    color: #1a093f;
+    font-weight: 900;
+    line-height: 3rem;
+    text-transform: capitalize;
+  }
+
+  .country-text-sec p {
+    max-width: 93%;
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 1.6rem;
   }
 }

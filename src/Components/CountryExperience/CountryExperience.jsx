@@ -16,6 +16,9 @@ const CountryExperience = (props) => {
           <h1>
             Studying in <br /> {name} !
           </h1>
+          <h6>
+            Studying in {name} !
+          </h6>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
             dictum rhoncus vulputate egestas pretium at. Rhoncus, blandit massa

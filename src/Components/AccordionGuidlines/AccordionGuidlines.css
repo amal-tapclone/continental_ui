@@ -47,3 +47,32 @@
   font-size: 1.18rem;
   font-weight: 700;
 }
+
+@media (max-width: 480px) {
+  .AccordionGuidlines {
+    height: 34rem;
+  }
+
+  .AccordionGuidlines .accord-guid-wrap {
+    width: 95%;
+    height: 93%;
+  }
+
+  .accord-guid-wrap .acco-image {
+    display: none;
+  }
+  .accordion-g h1 {
+    font-size: 1.3rem;
+  }
+  .accordion__button {
+    height: 1.65rem;
+  }
+  .accordion-g .acco-headi {
+    font-size: 0.9rem;
+  }
+
+  .accordion-g .acco-para {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+  }
+}

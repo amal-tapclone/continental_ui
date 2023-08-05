@@ -5,9 +5,9 @@ import "./EducationSystem.css";
 const EducationSystem = (props) => {
   const { name } = props;
   return (
-    <section className="education-sys ">
-      <div className="education-wrap ">
-        <div className="eduSys-text ">
+    <section className="education-sys testBorder">
+      <div className="education-wrap testBorder">
+        <div className="eduSys-text testBorder">
           <h3>OUR EXPERIENCE</h3>
           <h1>
             Education System <br /> in {name}

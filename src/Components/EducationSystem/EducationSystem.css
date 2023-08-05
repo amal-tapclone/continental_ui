@@ -26,6 +26,9 @@
 .education-wrap .eduSys-Img {
   width: 100%;
 }
+.education-wrap .eduSys-Img img {
+  width: 100%;
+}
 
 .education-wrap .eduSys-text {
   display: flex;
@@ -56,4 +59,41 @@
   font-weight: 400;
   line-height: 1.8rem;
   max-width: 88%;
+}
+
+@media (max-width: 480px) {
+  .education-sys {
+    height: 58rem;
+  }
+  .education-sys .education-wrap {
+    width: 95%;
+  }
+
+  .education-wrap .eduSys-text h3,
+  h1,
+  p {
+    text-align: center;
+  }
+
+  .education-wrap .eduSys-text {
+    padding-left: 0%;
+    align-items: center;
+  }
+
+  .education-sys .education-wrap {
+    flex-direction: column-reverse;
+  }
+  .eduSys-text h3 {
+    font-size: 0.8rem;
+    line-height: 1rem;
+    margin-top: 1rem;
+  }
+  .eduSys-text h1 {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    margin-top: 0.5rem;
+  }
+  .eduSys-text p {
+    margin-top: 0.5rem;
+  }
 }
