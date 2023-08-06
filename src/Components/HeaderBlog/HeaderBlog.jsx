@@ -33,7 +33,7 @@ const HeaderBlog = () => {
         </div>
 
         <div className="bgCircle">
-          <img src={bgCircle} alt="bg-circle" />
+          <img className="bg-circle" src={bgCircle} alt="bg-circle" />
           <img src={launchRocket} className="launchRocket" alt="bg-circle" />
           <img
             src={launchRocket}
@@ -47,7 +47,7 @@ const HeaderBlog = () => {
         </div>
 
         <div className="blogMainImage    blog">
-          <img src={blogMainBg} className="aboutImg" alt="bg-circle" />
+          <img src={blogMainBg} className="blog-main" alt="bg-circle" />
           <img src={cloud} className="cloud migrage-cloud" alt="bg-circle" />
           <img src={cloud} className="cloud migrage-cloud" alt="bg-circle" />
 

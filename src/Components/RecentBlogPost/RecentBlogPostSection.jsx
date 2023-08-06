@@ -17,8 +17,8 @@ const RecentBlogPostSection = () => {
     });
   };
   return (
-    <section className="RecentBlogPost" ref={parentDivRef}>
-      <div className="RecentBlogWrap ">
+    <section className="RecentBlogPost testBorder" ref={parentDivRef}>
+      <div className="RecentBlogWrap testBorder">
         <div className="res-blog-post ">
           <BlogPost blogData={selectedBlog} />
         </div>

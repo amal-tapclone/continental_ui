@@ -11,7 +11,6 @@ const useStickyNav = () => {
           document.documentElement.scrollHeight - windowHeight;
         const scrollPosition = window.scrollY;
         const percentage = (scrollPosition / totalHeight) * 100;
-        console.log(percentage);
         if (percentage > 2) {
           setIsSticky(true);
         } else {

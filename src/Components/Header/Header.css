@@ -154,7 +154,8 @@ nav .contactBtn {
 }
 
 .hero_content .abroad_search {
-  display: inline-flex;
+  /* display: inline-flex; */
+  display: none;
   flex-direction: column;
   align-items: flex-start;
   gap: 0.93rem;
@@ -385,6 +386,10 @@ nav .contactBtn {
     margin-left: 12%;
   }
 
+  .hero_content .ladyGlobe {
+    bottom: 8%;
+  }
+
   nav .links .nav_links {
     width: 25.8rem;
     font-size: 1.1rem;
@@ -459,11 +464,11 @@ nav .contactBtn {
 
   /* end navbar */
   .header_wrap {
-    height: 68rem;
+    height: 58rem;
   }
 
   .hero_section {
-    height: 55.7rem;
+    height: 40.7rem;
   }
 
   .hero_content {
@@ -501,7 +506,11 @@ nav .contactBtn {
   }
 
   .hero_content .circle_text {
-    position: relative;
+    /* position: relative; */
+    top: -22%;
+    transform: translate(-50%, 0);
+    left: 50%;
+    width: 100%;
   }
 
   .hero_content .circle_text p {
@@ -527,14 +536,14 @@ nav .contactBtn {
 
   .hero_content .ladyGlobe {
     width: 103.5%;
-    bottom: 22%;
+    bottom: 17%;
   }
 
   .course_panel {
     margin-top: 0;
     width: 23.5rem;
     left: 50.5%;
-    bottom: 10.8%;
+    bottom: -2.8%;
     height: 6rem;
   }
 

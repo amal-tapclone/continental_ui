@@ -13,7 +13,7 @@ const BlogPost = ({ blogData }) => {
           <div className="author-img"></div>
           <p>By {authorName}</p>
         </div>
-        <p className="blog-date">
+        <p className="blog-date"> 
           <img src={dateI} alt="date" /> {date}
         </p>
       </div>

@@ -58,7 +58,7 @@ const Header = () => {
   }, []);
 
   return (
-    <section className={`header_wrap`}>
+    <section className={`header_wrap testBorder`}>
       <NavBar />
       <div className={`hero_section  testBorder`}>
         <div className={`hero_content testBorder`}>
