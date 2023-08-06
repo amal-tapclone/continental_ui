@@ -14,10 +14,10 @@ font-family: "Roboto", sans-serif; */
   margin: 0 auto;
 }
 
-.testBorder {
-  /* border: 2px solid rgba(255, 0, 0, 0.169); */
+/* .testBorder {
+  border: 2px solid rgba(255, 0, 0, 0.169);
   outline: 2px solid rgba(255, 0, 0, 0.169);
-}
+} */
 
 .mainWrapper {
   background: #f3f6f9;
