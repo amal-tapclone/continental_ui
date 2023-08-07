@@ -4,7 +4,7 @@
   background: url(../../assets/HomePage/Frame\ 40.png) center/cover no-repeat;
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: flex-end;
 }
 
 .YstudyAbroad .studyAbroadWrap {
