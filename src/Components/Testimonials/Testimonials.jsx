@@ -1,7 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
-import testiIcon from "../../assets/HomePage/testiIcon.svg";
+// import testiIcon from "../../assets/HomePage/testiIcon.svg";
 import leftArrow from "../../assets/HomePage/dest_left_arrow.svg";
 import rightArrow from "../../assets/HomePage/dest_right_arrow.svg";
 import { testiMonialsArr } from "../../Constants/Constants";
@@ -59,8 +59,8 @@ const Testimonials = () => {
             className="testi-slid"
           >
             {testiMonialsArr.map(
-              ({ img, head, description, author, place }) => (
-                <SwiperSlide className="test-slider-con ">
+              ({ img, head, description, author, place }, idx) => (
+                <SwiperSlide className="test-slider-con " key={idx}>
                   <div className="msgSlideWrap">
                     <h3>{head}</h3>
                     <p>{description}</p>

@@ -48,8 +48,8 @@ const WhyChooseUs = () => {
             centeredSlides={false}
             className="choose-us-slid "
           >
-            {whyChooseArr.map(({ img, head, desc }) => (
-              <SwiperSlide className="slider-con ">
+            {whyChooseArr.map(({ img, head, desc }, idx) => (
+              <SwiperSlide className="slider-con " key={idx}>
                 <img src={img} alt="calender" />
                 <h3>{head}</h3>
                 <p>{desc}</p>

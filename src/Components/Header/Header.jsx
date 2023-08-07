@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
-import DatePicker from "react-datepicker";
-import CustomDateInp from "./CustomDateInp";
+import React, { useEffect } from "react";
+// import DatePicker from "react-datepicker";
+// import CustomDateInp from "./CustomDateInp";
 import "react-datepicker/dist/react-datepicker.css";
-import globe from "../../assets/HomePage/World.svg";
-import location from "../../assets/HomePage/Location Icon.svg";
-import date from "../../assets/HomePage/Date Icon.svg";
-import search from "../../assets/HomePage/Search Icon.svg";
+// import globe from "../../assets/HomePage/World.svg";
+// import location from "../../assets/HomePage/Location Icon.svg";
+// import date from "../../assets/HomePage/Date Icon.svg";
+// import search from "../../assets/HomePage/Search Icon.svg";
 import dateWhite from "../../assets/HomePage/DateIco_white.svg";
 import downIcon from "../../assets/HomePage/Down Icon.svg";
 import globeTransp from "../../assets/HomePage/transparentGlobe.png";
@@ -16,7 +16,7 @@ import "./Header.css";
 import NavBar from "./NavBar";
 
 const Header = () => {
-  const [startDate, setStartDate] = useState(new Date());
+  // const [startDate, setStartDate] = useState(new Date());
   const rotateImage = () => {
     gsap.to(".rotate-globe", {
       rotation: 360 * 4,
@@ -62,7 +62,7 @@ const Header = () => {
       <NavBar />
       <div className={`hero_section  testBorder`}>
         <div className={`hero_content testBorder`}>
-          <div className={`abroad_search testBorder`}>
+          {/* <div className={`abroad_search testBorder`}>
             <div className={`abroad_title`}>
               Study Abroad
               <span style={{ marginLeft: "1rem", marginTop: "0.45rem" }}>
@@ -100,7 +100,7 @@ const Header = () => {
                 <img draggable={false} src={search} />
               </button>
             </div>
-          </div>
+          </div> */}
 
           <div className={`circle_text testBorder`}>
             <p>
@@ -116,7 +116,7 @@ const Header = () => {
             <img src={ladyGlobe} alt="" />
           </div>
 
-          <div class="globe-container ">
+          <div className="globe-container ">
             <img
               src={globeTransp}
               className="rotate-globe"
@@ -130,11 +130,18 @@ const Header = () => {
             <p>
               Location{" "}
               <span>
-                <img src={downIcon} style={{ marginBottom: "0.3rem" }} />
+                <img
+                  src={downIcon}
+                  alt="down-icon"
+                  style={{ marginBottom: "0.3rem" }}
+                />
               </span>
             </p>
-            <select className={`location_select testBorder`}>
-              <option value="" disabled selected>
+            <select
+              className={`location_select testBorder`}
+              defaultValue={"select"}
+            >
+              <option value="select" disabled>
                 Select
               </option>
               <option value="New York">Pontianak, USA</option>
@@ -145,11 +152,18 @@ const Header = () => {
             <p>
               University{" "}
               <span>
-                <img src={downIcon} style={{ marginBottom: "0.3rem" }} />
+                <img
+                  src={downIcon}
+                  alt="down-icon"
+                  style={{ marginBottom: "0.3rem" }}
+                />
               </span>
             </p>
-            <select className={`location_select testBorder` }>
-              <option value="" disabled selected>
+            <select
+              className={`location_select testBorder`}
+              defaultValue={"select"}
+            >
+              <option value="select" disabled>
                 Select
               </option>
               <option value="New York">Pontianak, USA</option>
@@ -160,11 +174,15 @@ const Header = () => {
             <p>
               Courses{" "}
               <span>
-                <img src={downIcon} style={{ marginBottom: "0.3rem" }} />
+                <img
+                  src={downIcon}
+                  alt="down-icon"
+                  style={{ marginBottom: "0.3rem" }}
+                />
               </span>
             </p>
-            <select className={`location_select`}>
-              <option value="" disabled selected>
+            <select className={`location_select`} defaultValue={"select"}>
+              <option value="select" disabled>
                 Select
               </option>
               <option value="New York">Pontianak, USA</option>
@@ -172,7 +190,7 @@ const Header = () => {
             </select>
           </div>
           <div className={`enroll_btn`}>
-            <img src={dateWhite} />
+            <img src={dateWhite} alt="date" />
             <p>Enroll Us</p>
           </div>
         </div>

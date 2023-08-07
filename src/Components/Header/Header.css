@@ -124,10 +124,10 @@ nav .connect_links {
 
 nav .contactBtn {
   color: #6347eb;
-  width: 156px;
-  height: 57px;
+  width: 9.75rem;
+  height: 3.5rem;
   background: transparent;
-  border-radius: 16px;
+  border-radius: 1rem;
   border: 1.5px solid #6347eb;
   /* margin-left: 3.18rem; */
   margin-left: 8%;
@@ -401,6 +401,48 @@ nav .contactBtn {
 
   nav .connect_links {
     width: 5.2rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header_wrap {
+    height: 40rem;
+  }
+
+  .hero_content .circle_text {
+    top: 24%;
+    right: 2%;
+  }
+  .hero_content .circle_text p {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+  .hero_section {
+    height: 26.7rem;
+  }
+  .hero_content .globe-container {
+    height: 24.8rem;
+  }
+
+  nav .connect_links {
+    display: none;
+  }
+  nav .contactBtn {
+    width: 7rem;
+    height: 3rem;
+    margin-left: 8%;
+    font-size: 1.1rem;
+  }
+
+  nav .links .nav_links {
+    width: 25.8rem;
+    font-size: 1rem;
+  }
+
+  .course_panel {
+    width: 50.5rem;
+    height: 6.5rem;
+    bottom: -18%;
   }
 }
 

@@ -16,8 +16,8 @@ const BlogSection = () => {
           eiusmod tempor incididunt ut.
         </p>
         <div className="articles testBorder">
-          {blogsArr.map(({ imgSrc, date, heading, desc }) => (
-            <div className="blog ">
+          {blogsArr.map(({ imgSrc, date, heading, desc }, idx) => (
+            <div className="blog " key={idx}>
               <div className="blog-item">
                 <img className="girl" src={imgSrc} alt="girl" />
               </div>

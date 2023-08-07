@@ -36,9 +36,9 @@ const Destination = () => {
           speed={2000}
           className="destSwiper testBorder"
         >
-          {countries.map(({ countryimg, name }) => (
-            <SwiperSlide className="country-pic testBorder">
-              <img draggable={false} src={countryimg} />
+          {countries.map(({ countryimg, name }, idx) => (
+            <SwiperSlide className="country-pic testBorder" key={idx}>
+              <img draggable={false} src={countryimg} alt="country"/>
               <div className="country-name ">
                 <h3>{name}</h3>
               </div>

@@ -9,7 +9,7 @@ import Overseas from "../Components/Overseas/Overseas";
 import OurExperience from "../Components/OurExperience/OurExperience";
 import WhyChooseUs from "../Components/WhyChooseUs/WhyChooseUs";
 import Testimonials from "../Components/Testimonials/Testimonials";
-import useScrollToTop from "../Hooks/useScrollToTop";
+import useScrollToTop from "../Hooks/useScrollToTop"; 
 
 const Index = () => {
   useScrollToTop();
