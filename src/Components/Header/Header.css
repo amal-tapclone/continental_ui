@@ -446,13 +446,105 @@ nav .contactBtn {
   }
 }
 
+@media (max-width: 768px) {
+  .mob-hamburger {
+    display: block;
+  }
+
+  nav {
+    width: 95%;
+    height: 3.8rem;
+    position: relative;
+  }
+
+  nav .links {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    position: absolute;
+    margin-left: -0.5%;
+    background: rgb(240, 244, 247);
+    gap: 2rem;
+    transition: 0.3s ease-in;
+  }
+
+  nav .links .nav_links {
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+  }
+
+  nav .connect_links {
+    margin: 0 auto;
+    display: flex;
+    gap: 1rem;
+  }
+
+  nav .logo {
+    width: 10rem;
+  }
+
+  nav .logo img {
+    width: 100%;
+  }
+
+  nav::after {
+    display: none;
+  }
+  .nav_active {
+    display: flex;
+    justify-content: space-between;
+  }
+  nav .contactBtn {
+    display: none;
+  }
+  nav .connect_links {
+    margin: 0 auto;
+    display: flex;
+    gap: 1rem;
+  }
+  .hero_section {
+    height: 22.7rem;
+  }
+  .hero_content .globe-container {
+    height: 21.8rem;
+  }
+
+  .hero_content .circle_text p {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+  }
+  .course_panel {
+    width: 26.5rem;
+    bottom: -12.8%;
+    height: 6rem;
+  }
+  .course_panel .enroll_btn {
+    position: absolute;
+    /* bottom: -3rem; */
+    bottom: -90%;
+    flex-direction: row;
+    height: 70%;
+    padding: 0 10%;
+    border-radius: 20px;
+    transform: translate(-50%, 0);
+    left: 50%;
+    width: 65%;
+  }
+  .hero_content .ladyGlobe {
+    width: 48.5%;
+    bottom: 22%;
+  }
+}
+
 @media (max-width: 480px) {
   .nav_active {
     transition: 1.5s linear;
   }
 
   /* navbar */
-  .mob-hamburger {
+  /* .mob-hamburger {
     display: block;
   }
   nav {
@@ -498,7 +590,7 @@ nav .contactBtn {
   .nav_active {
     display: flex;
     justify-content: space-between;
-  }
+  } */
 
   nav .contactBtn {
     display: none;

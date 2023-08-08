@@ -39,7 +39,7 @@ const NavBar = () => {
     <nav className={`${isSticky ? "sticky_nav" : "nav_active "} `}>
       <div className={`logo`} onClick={() => navigate("/")}>
         <img src={logo} alt="logo" draggable={false} />
-      </div>
+      </div>  
 
       <div className={`links `} style={{ top: postion }}>
         <ul className={`nav_links `}>

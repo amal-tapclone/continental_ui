@@ -5,6 +5,9 @@ const useStickyNav = () => {
 
   useEffect(() => {
     const handleScroll = () => {
+      if (window.innerWidth <= 768 && window.innerWidth >= 480) {
+        return;
+      }
       if (window.innerWidth >= 768) {
         const windowHeight = window.innerHeight;
         const totalHeight =
